@@ -1,0 +1,3212 @@
+{
+    "course_id": 1484,
+    "feedbacks": [
+        {
+            "feedback_id": 12182,
+            "feedback_name": "U1 S1: Aplicación en la práctica/",
+            "questions": {
+                "items": [
+                    {
+                        "id": 67445,
+                        "feedback": 12182,
+                        "template": 0,
+                        "name": "label",
+                        "label": "",
+                        "presentation": "<div style=\"\r\n    padding: 10px;\r\n\">\r\n    <p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n    color: #00315f;\r\n    padding: 0 20px;\r\n\"><strong>Situación</strong></p>\r\n    <div style=\"\r\n    padding: 20px;\r\n    border-radius: 2em;\r\n    border: 2px solid #00315f;\r\n    box-shadow: 5px 4px #00315f;\r\n    background-color: #efefef61;\r\n\">\r\n\r\n        <p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n\">Gabriel es un formador de docentes que suele ser muy responsable con su trabajo. Él está convencido de que debe atender a las competencias que presenta el Perfil del formador del Minedu y, por ello, organiza su labor en función de dicho documento. El formador ha sido asignado a otra región y ha previsto toda la ruta de trabajo y los recursos para realizar los momentos de la secuencia formativa en cada una de sus visitas, de tal manera que los docentes desarrollen el juicio pedagógico y la autonomía en su práctica pedagógica.<br>\r\nEn una visita, Gabriel observa que el docente tiene una forma particular de presentar el contenido de la clase referido a los alimentos y a las medicinas tradicionales de la zona. El formador compara estos conocimientos con los saberes constituidos previamente en su preparación y expresa algunas inquietudes al respecto. En el momento del diálogo, se inicia un diálogo no estructurado con el docente. Al final, el formador toma nota de algunos contenidos que pueden ser mejor presentados por el docente y le sugiere algunas estrategias más efectivas.</p>\r\n\r\n    </div>\r\n\r\n\r\n</div>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 1,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67082,
+                        "feedback": 12182,
+                        "template": 0,
+                        "name": "1. ¿Qué competencias del dominio 1 del Perfil del formador se ven reflejadas en la situación presentada?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 2,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 1,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67083,
+                        "feedback": 12182,
+                        "template": 0,
+                        "name": "2. De encontrarte en la situación del formador Gabriel, ¿qué otras acciones consideras necesarias realizar para atender a las necesidades formativas del docente?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 3,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 2,
+                        "otherdata": null
+                    }
+                ],
+                "warnings": []
+            },
+            "responses": {
+                "attempts": [
+                    {
+                        "id": 1803934,
+                        "courseid": 0,
+                        "userid": 19792,
+                        "timemodified": 1763394699,
+                        "fullname": "JACK WILLIAN AZANG LOPEZ",
+                        "responses": [
+                            {
+                                "id": 67082,
+                                "name": "1. ¿Qué competencias del ...",
+                                "printval": "333333333333333333333",
+                                "rawval": "333333333333333333333"
+                            },
+                            {
+                                "id": 67083,
+                                "name": "2. De encontrarte en la ...",
+                                "printval": "3333333333333333333",
+                                "rawval": "3333333333333333333"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1945776,
+                        "courseid": 0,
+                        "userid": 9437,
+                        "timemodified": 1764188788,
+                        "fullname": "KELMA CANAZAS AYERBE",
+                        "responses": [
+                            {
+                                "id": 67082,
+                                "name": "1. ¿Qué competencias del ...",
+                                "printval": "asdsa",
+                                "rawval": "asdsa"
+                            },
+                            {
+                                "id": 67083,
+                                "name": "2. De encontrarte en la ...",
+                                "printval": "sdsad",
+                                "rawval": "sdsad"
+                            }
+                        ]
+                    }
+                ],
+                "totalattempts": 2,
+                "anonattempts": [],
+                "totalanonattempts": 0,
+                "warnings": []
+            }
+        },
+        {
+            "feedback_id": 12183,
+            "feedback_name": "U1 S1: Autoevaluación/",
+            "questions": {
+                "items": [
+                    {
+                        "id": 67683,
+                        "feedback": 12183,
+                        "template": 0,
+                        "name": "label",
+                        "label": "",
+                        "presentation": "<h5><span id=\"docs-internal-guid-0231a459-7fff-6437-1b73-b36109c6633f\" style=\"\">Instrucciones:<span style=\"font-weight: normal;\"> Lee cada afirmación y marca (x) “Sí” si consideras que comprendiste el concepto y eres capaz de explicar a alguien con tus propias palabras, o “No” si necesitas un autoreforzamiento del tema:</span></span></h5>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 1,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67084,
+                        "feedback": 12183,
+                        "template": 0,
+                        "name": "1. Identifiqué las competencias que se aluden en el caso.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 2,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 1,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67085,
+                        "feedback": 12183,
+                        "template": 0,
+                        "name": "2. Reconocí la responsabilidad asumida por el formador desde su preparación.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 3,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 2,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67684,
+                        "feedback": 12183,
+                        "template": 0,
+                        "name": "3. Señalé otras acciones que puede realizar el formador para atender a las necesidades del docente.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 4,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 3,
+                        "otherdata": null
+                    }
+                ],
+                "warnings": []
+            },
+            "responses": {
+                "attempts": [
+                    {
+                        "id": 1803951,
+                        "courseid": 0,
+                        "userid": 19792,
+                        "timemodified": 1763394823,
+                        "fullname": "JACK WILLIAN AZANG LOPEZ",
+                        "responses": [
+                            {
+                                "id": 67084,
+                                "name": "1. Identifiqué las ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67085,
+                                "name": "2. Reconocí la ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67684,
+                                "name": "3. Señalé otras acciones ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1945785,
+                        "courseid": 0,
+                        "userid": 9437,
+                        "timemodified": 1764188810,
+                        "fullname": "KELMA CANAZAS AYERBE",
+                        "responses": [
+                            {
+                                "id": 67084,
+                                "name": "1. Identifiqué las ...",
+                                "printval": "No",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 67085,
+                                "name": "2. Reconocí la ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67684,
+                                "name": "3. Señalé otras acciones ...",
+                                "printval": "No",
+                                "rawval": "2"
+                            }
+                        ]
+                    }
+                ],
+                "totalattempts": 2,
+                "anonattempts": [],
+                "totalanonattempts": 0,
+                "warnings": []
+            }
+        },
+        {
+            "feedback_id": 12184,
+            "feedback_name": "U1 S2: Aplicación en la práctica/",
+            "questions": {
+                "items": [
+                    {
+                        "id": 67090,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "1. Considerando lo analizado en esta sesión y tu experiencia como formador de docentes, ¿de qué manera puedes contribuir en el fortalecimiento de las competencias profesionales de los docentes del país?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 1,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 1,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67925,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 2,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67926,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "label",
+                        "label": "",
+                        "presentation": "<div style=\"\r\n    padding: 10px;\r\n\">\r\n    <p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n    color: #3e3e3e;\r\n    padding: 10px;\r\n\"><strong>2. Plantea tres ideas básicas del enfoque por competencias profesionales y las acciones que desarrollarías como formador de docentes</strong></p>\r\n\r\n    <table style=\"\r\n    text-align: center;\r\n    font-size: 16px;\r\n    color: #3e3e3e;\r\n    justify-self: center;\r\n\">\r\n        <thead>\r\n            <tr>\r\n                <th scope=\"col\" style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"><b><span lang=\"ES\">N.</span><span lang=\"ES\">o</span></b></th>\r\n                <th scope=\"col\" style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"><b><span lang=\"ES\">Ideas básicas del enfoque por competencias profesionales</span></b></th>\r\n                <th scope=\"col\" style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"><b><span lang=\"ES\">Acciones a desarrollar como formador de docentes</span></b></th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"><span lang=\"ES\">1</span></td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n            </tr>\r\n            <tr>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\">2</td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n            </tr>\r\n            <tr>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\">3</td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n            </tr>\r\n        </tbody>\r\n    </table>\r\n    \r\n</div>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 3,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67089,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "1. Idea básica y acciones:",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 4,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 2,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67923,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "2. Idea básica y acciones:",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 5,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 3,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67924,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "3. Idea básica y acciones:",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 6,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 4,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67927,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 7,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67928,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "label",
+                        "label": "",
+                        "presentation": "<div style=\"\r\n    padding: 10px;\r\n\">\r\n    <p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n    color: #3e3e3e;\r\n    padding: 10px;\r\n\"><strong>3. Propón tres ideas básicas del enfoque colaborativo y autonomía colegiada y las acciones que desarrollarías como formador de docentes:</strong></p>\r\n\r\n    <table style=\"\r\n    text-align: center;\r\n    font-size: 16px;\r\n    color: #3e3e3e;\r\n    justify-self: center;\r\n\">\r\n        <thead>\r\n            <tr>\r\n                <th scope=\"col\" style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"><b><span lang=\"ES\">N.</span><span lang=\"ES\">o</span></b></th>\r\n                <th scope=\"col\" style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"><b><span lang=\"ES\">Ideas básicas del enfoque colaborativo y autonomía colegiada</span></b></th>\r\n                <th scope=\"col\" style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"><b><span lang=\"ES\">Acciones a desarrollar como formador de docentes</span></b></th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"><span lang=\"ES\">1</span></td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n            </tr>\r\n            <tr>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\">2</td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n            </tr>\r\n            <tr>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\">3</td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n                <td style=\"border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);\"></td>\r\n            </tr>\r\n        </tbody>\r\n    </table>\r\n    \r\n</div>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 8,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67929,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "1. Idea básica y acciones:",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 9,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 5,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67930,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "2. Idea básica y acciones:",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 10,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 6,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67931,
+                        "feedback": 12184,
+                        "template": 0,
+                        "name": "3. Idea básica y acciones:",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 11,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 7,
+                        "otherdata": null
+                    }
+                ],
+                "warnings": []
+            },
+            "responses": {
+                "attempts": [
+                    {
+                        "id": 1804099,
+                        "courseid": 0,
+                        "userid": 19792,
+                        "timemodified": 1763395558,
+                        "fullname": "JACK WILLIAN AZANG LOPEZ",
+                        "responses": [
+                            {
+                                "id": 67090,
+                                "name": "1. Considerando lo ...",
+                                "printval": "sasasasa",
+                                "rawval": "sasasasa"
+                            },
+                            {
+                                "id": 67089,
+                                "name": "1. Idea básica y acciones:",
+                                "printval": "ass",
+                                "rawval": "ass"
+                            },
+                            {
+                                "id": 67923,
+                                "name": "2. Idea básica y acciones:",
+                                "printval": "asas",
+                                "rawval": "asas"
+                            },
+                            {
+                                "id": 67924,
+                                "name": "3. Idea básica y acciones:",
+                                "printval": "as",
+                                "rawval": "as"
+                            },
+                            {
+                                "id": 67929,
+                                "name": "1. Idea básica y acciones:",
+                                "printval": "asas",
+                                "rawval": "asas"
+                            },
+                            {
+                                "id": 67930,
+                                "name": "2. Idea básica y acciones:",
+                                "printval": "asas",
+                                "rawval": "asas"
+                            },
+                            {
+                                "id": 67931,
+                                "name": "3. Idea básica y acciones:",
+                                "printval": "sasas",
+                                "rawval": "sasas"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1946512,
+                        "courseid": 0,
+                        "userid": 9437,
+                        "timemodified": 1764192185,
+                        "fullname": "KELMA CANAZAS AYERBE",
+                        "responses": [
+                            {
+                                "id": 67090,
+                                "name": "1. Considerando lo ...",
+                                "printval": "SDGFDSF",
+                                "rawval": "SDGFDSF"
+                            },
+                            {
+                                "id": 67089,
+                                "name": "1. Idea básica y acciones:",
+                                "printval": "asdfsdf",
+                                "rawval": "asdfsdf"
+                            },
+                            {
+                                "id": 67923,
+                                "name": "2. Idea básica y acciones:",
+                                "printval": "sadf",
+                                "rawval": "sadf"
+                            },
+                            {
+                                "id": 67924,
+                                "name": "3. Idea básica y acciones:",
+                                "printval": "sdfdsf",
+                                "rawval": "sdfdsf"
+                            },
+                            {
+                                "id": 67929,
+                                "name": "1. Idea básica y acciones:",
+                                "printval": "sadfsdf",
+                                "rawval": "sadfsdf"
+                            },
+                            {
+                                "id": 67930,
+                                "name": "2. Idea básica y acciones:",
+                                "printval": "sdfsdf",
+                                "rawval": "sdfsdf"
+                            },
+                            {
+                                "id": 67931,
+                                "name": "3. Idea básica y acciones:",
+                                "printval": "sdfs",
+                                "rawval": "sdfs"
+                            }
+                        ]
+                    }
+                ],
+                "totalattempts": 2,
+                "anonattempts": [],
+                "totalanonattempts": 0,
+                "warnings": []
+            }
+        },
+        {
+            "feedback_id": 12185,
+            "feedback_name": "U1 S2: Autoevaluación/",
+            "questions": {
+                "items": [
+                    {
+                        "id": 67932,
+                        "feedback": 12185,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<h5><span id=\"docs-internal-guid-0231a459-7fff-6437-1b73-b36109c6633f\" style=\"\">Instrucciones:<span style=\"font-weight: normal;\"> Lee cada afirmación y marca (x) “Sí” si consideras que comprendiste el concepto y eres capaz de explicar a alguien con tus propias palabras, o “No” si necesitas un autoreforzamiento del tema:</span></span></h5>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 1,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67933,
+                        "feedback": 12185,
+                        "template": 0,
+                        "name": "1. Brindé argumentos respecto a cómo contribuiría al fortalecimiento de las competencias profesionales de los docentes del país.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 2,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 1,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67934,
+                        "feedback": 12185,
+                        "template": 0,
+                        "name": "2. Sugerí tres ideas básicas del enfoque por competencias profesionales y las acciones que desarrollaría como formador de docentes.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 3,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 2,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67935,
+                        "feedback": 12185,
+                        "template": 0,
+                        "name": "3. Aporté tres ideas básicas del enfoque colaborativo y autonomía colegiada y las acciones que desarrollaría como formador de docentes.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 4,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 3,
+                        "otherdata": null
+                    }
+                ],
+                "warnings": []
+            },
+            "responses": {
+                "attempts": [
+                    {
+                        "id": 1804149,
+                        "courseid": 0,
+                        "userid": 19792,
+                        "timemodified": 1763396016,
+                        "fullname": "JACK WILLIAN AZANG LOPEZ",
+                        "responses": [
+                            {
+                                "id": 67933,
+                                "name": "1. Brindé argumentos ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67934,
+                                "name": "2. Sugerí tres ideas ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67935,
+                                "name": "3. Aporté tres ideas ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1946520,
+                        "courseid": 0,
+                        "userid": 9437,
+                        "timemodified": 1764192206,
+                        "fullname": "KELMA CANAZAS AYERBE",
+                        "responses": [
+                            {
+                                "id": 67933,
+                                "name": "1. Brindé argumentos ...",
+                                "printval": "No",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 67934,
+                                "name": "2. Sugerí tres ideas ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67935,
+                                "name": "3. Aporté tres ideas ...",
+                                "printval": "No",
+                                "rawval": "2"
+                            }
+                        ]
+                    }
+                ],
+                "totalattempts": 2,
+                "anonattempts": [],
+                "totalanonattempts": 0,
+                "warnings": []
+            }
+        },
+        {
+            "feedback_id": 12186,
+            "feedback_name": "U2 S1: Aplicación en la práctica/",
+            "questions": {
+                "items": [
+                    {
+                        "id": 67097,
+                        "feedback": 12186,
+                        "template": 0,
+                        "name": "label",
+                        "label": "",
+                        "presentation": "<div style=\"\r\n    padding: 10px;\r\n\">\r\n    <p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n    color: #053352;\r\n    padding: 0 20px;\r\n\"><strong>Te invitamos a revisar la siguiente situación.</strong></p>\r\n    <div style=\"\r\n    padding: 20px;\r\n    border-radius: 2em;\r\n    border: 2px solid #053352;\r\n    box-shadow: 5px 4px #053352;\r\n    background-color: #e5ebef;\r\n\">\r\n        <p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n\">La premisa sobre el desarrollo de una reflexión crítico-reflexiva en el ejercicio docente implica mucho más que revisar lo que sucede en el aula: requiere cuestionar supuestos, deconstruir la práctica y resignificarla en función de las necesidades del contexto y de los estudiantes. Barbara Larrivee (2008), propone cuatro niveles de reflexión:</p>\r\n        \r\n        <p style=\"\r\n    text-align: center;\r\n\">\r\n<img src=\"@@PLUGINFILE@@/imagen_U2S1-aplica.png\" alt=\"\" width=\"750\" height=\"515\" role=\"presentation\" class=\"img-fluid atto_image_button_middle\">\r\n</p>\r\n\r\n    <p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n\">Este tipo de reflexión no ocurre de forma espontánea, sino que necesita ser intencionada, sistemática y acompañada por estrategias que la promuevan.</p></div>\r\n\r\n</div>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 1,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [
+                            {
+                                "contextid": 1997097,
+                                "component": "mod_feedback",
+                                "filearea": "item",
+                                "itemid": 67097,
+                                "filepath": "/",
+                                "filename": "imagen_U2S1_aplica.png",
+                                "isdir": false,
+                                "isimage": true,
+                                "timemodified": 1763142291,
+                                "timecreated": 1763142054,
+                                "filesize": 160320,
+                                "author": "JUAN GABRIEL VALENZUELA QUISPE",
+                                "license": "unknown",
+                                "filenameshort": "imagen_U2S1_aplica.png",
+                                "filesizeformatted": "156.6 KB",
+                                "icon": "f/png-128",
+                                "timecreatedformatted": "viernes, 14 de noviembre de 2025, 12:40",
+                                "timemodifiedformatted": "viernes, 14 de noviembre de 2025, 12:44",
+                                "url": "https://campusvirtual-sifods.minedu.gob.pe/pluginfile.php/1997097/mod_feedback/item/67097/imagen_U2S1_aplica.png?forcedownload=1"
+                            },
+                            {
+                                "contextid": 1997097,
+                                "component": "mod_feedback",
+                                "filearea": "item",
+                                "itemid": 67097,
+                                "filepath": "/",
+                                "filename": "imagen_U2S1-aplica.png",
+                                "isdir": false,
+                                "isimage": true,
+                                "timemodified": 1763142291,
+                                "timecreated": 1763142195,
+                                "filesize": 162245,
+                                "author": "JUAN GABRIEL VALENZUELA QUISPE",
+                                "license": "unknown",
+                                "filenameshort": "imagen_U2S1-aplica.png",
+                                "filesizeformatted": "158.4 KB",
+                                "icon": "f/png-128",
+                                "timecreatedformatted": "viernes, 14 de noviembre de 2025, 12:43",
+                                "timemodifiedformatted": "viernes, 14 de noviembre de 2025, 12:44",
+                                "url": "https://campusvirtual-sifods.minedu.gob.pe/pluginfile.php/1997097/mod_feedback/item/67097/imagen_U2S1-aplica.png?forcedownload=1"
+                            }
+                        ],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67098,
+                        "feedback": 12186,
+                        "template": 0,
+                        "name": "1. A continuación, plantea algunas metodologías que faciliten y fortalezcan la reflexión docente, y ayuden a los docentes a transitar hacia niveles más profundos de reflexión sobre su práctica:",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 2,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 1,
+                        "otherdata": null
+                    }
+                ],
+                "warnings": []
+            },
+            "responses": {
+                "attempts": [
+                    {
+                        "id": 1804195,
+                        "courseid": 0,
+                        "userid": 19792,
+                        "timemodified": 1763396264,
+                        "fullname": "JACK WILLIAN AZANG LOPEZ",
+                        "responses": [
+                            {
+                                "id": 67098,
+                                "name": "1. A continuación, plantea ...",
+                                "printval": "asasasasasas",
+                                "rawval": "asasasasasas"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1947045,
+                        "courseid": 0,
+                        "userid": 9437,
+                        "timemodified": 1764194167,
+                        "fullname": "KELMA CANAZAS AYERBE",
+                        "responses": [
+                            {
+                                "id": 67098,
+                                "name": "1. A continuación, plantea ...",
+                                "printval": "asdfsdf",
+                                "rawval": "asdfsdf"
+                            }
+                        ]
+                    }
+                ],
+                "totalattempts": 2,
+                "anonattempts": [],
+                "totalanonattempts": 0,
+                "warnings": []
+            }
+        },
+        {
+            "feedback_id": 12187,
+            "feedback_name": "U2 S1: Autoevaluación/",
+            "questions": {
+                "items": [
+                    {
+                        "id": 67936,
+                        "feedback": 12187,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<h5><span id=\"docs-internal-guid-0231a459-7fff-6437-1b73-b36109c6633f\" style=\"\">Instrucciones:<span style=\"font-weight: normal;\"> Lee cada afirmación y marca (x) “Sí” si consideras que comprendiste el concepto y eres capaz de explicar a alguien con tus propias palabras, o “No” si necesitas un autoreforzamiento del tema:</span></span></h5>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 1,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67937,
+                        "feedback": 12187,
+                        "template": 0,
+                        "name": "1. Leí y comprendí que el desarrollo de una reflexión crítico-reflexiva en el ejercicio docente implica mucho más que revisar lo que sucede en el aula.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 2,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 1,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67938,
+                        "feedback": 12187,
+                        "template": 0,
+                        "name": "2. Entendí los cuatros niveles de reflexión propuestos por Barbara Larrivee.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 3,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 2,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67939,
+                        "feedback": 12187,
+                        "template": 0,
+                        "name": "3. Planteé algunas metodologías que facilitan y fortalecen la reflexión docente, y nos ayudan a transitar hacia niveles más profundos de reflexión sobre nuestra práctica.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 4,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 3,
+                        "otherdata": null
+                    }
+                ],
+                "warnings": []
+            },
+            "responses": {
+                "attempts": [
+                    {
+                        "id": 1804214,
+                        "courseid": 0,
+                        "userid": 19792,
+                        "timemodified": 1763396342,
+                        "fullname": "JACK WILLIAN AZANG LOPEZ",
+                        "responses": [
+                            {
+                                "id": 67937,
+                                "name": "1. Leí y comprendí que el ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67938,
+                                "name": "2. Entendí los cuatros ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67939,
+                                "name": "3. Planteé algunas ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1947055,
+                        "courseid": 0,
+                        "userid": 9437,
+                        "timemodified": 1764194184,
+                        "fullname": "KELMA CANAZAS AYERBE",
+                        "responses": [
+                            {
+                                "id": 67937,
+                                "name": "1. Leí y comprendí que el ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67938,
+                                "name": "2. Entendí los cuatros ...",
+                                "printval": "No",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 67939,
+                                "name": "3. Planteé algunas ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            }
+                        ]
+                    }
+                ],
+                "totalattempts": 2,
+                "anonattempts": [],
+                "totalanonattempts": 0,
+                "warnings": []
+            }
+        },
+        {
+            "feedback_id": 12188,
+            "feedback_name": "U2 S2: Aplicación en la práctica/",
+            "questions": {
+                "items": [
+                    {
+                        "id": 68207,
+                        "feedback": 12188,
+                        "template": 0,
+                        "name": "label",
+                        "label": "",
+                        "presentation": "<div style=\"\r\n    padding: 10px;\r\n\">\r\n    <p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n    color: #1d2125;\r\n    padding: 0 20px;\r\n\"><strong>Estimado formador, revise el siguiente caso:</strong></p>\r\n\r\n    <p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n    color: #1d2125;\r\n    padding: 0 20px;\r\n\">En el marco del Programa Logros de Aprendizaje, una de las estrategias formativas es la implementación de la asesoría a la práctica pedagógica. Esta se refiere a una estrategia formativa que tiene como propósito desarrollar las competencias profesionales de los docentes en servicio, a partir de espacios de reflexión crítica de la práctica pedagógica y su vínculo con la teoría, acompañados de un formador. </p>\r\n    <p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n    color: #1d2125;\r\n    padding: 0 20px;\r\n\">La asesoría a la práctica consiste en lo siguiente:\r\n    </p>\r\n<ol type=\"i\" style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n    color: #1d2125;\r\n    padding: 0 20px;\r\n\">\r\n    <li> Observar la práctica pedagógica del docente en el aula.</li>\r\n    <li>Preparar el diálogo reflexivo: elaborar las preguntas de reflexión que inviten a la deconstrucción de la práctica. (En otro espacio)</li>\r\n    <li>Ejecutar el diálogo reflexivo y la retroalimentación (Fuera de la jornada escolar; previo acuerdo con el docente respecto al horario).</li>\r\n</ol><p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n    color: #1d2125;\r\n    padding: 0 20px;\r\n\">\r\n    Veamos el siguiente caso:\r\n    <br>\r\n    El formador Ramón, luego de concluir con la observación de la práctica se retira del salón de clase para trasladarse a otro espacio donde pueda analizar con detenimiento la clase observada, revisar sus evidencias y preparar el diálogo reflexivo. Sin embargo, la docente observada lo aborda y le propone realizar el diálogo reflexivo en ese momento para aprovechar el tiempo; dado que sus estudiantes estarán en clase de educación física con otro profesor.\r\n    El formador Ramón se queda pensando y, finalmente, accede a la solicitud de la docente.\r\n</p></div>\r\n\r\n\r\n<p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n    color: #1d2125;\r\n    padding: 0 20px;\r\n    font-weight: 700;\r\n\">A partir de la situación presentada y en base a la reflexión del curso, responde:\r\n</p>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 1,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68208,
+                        "feedback": 12188,
+                        "template": 0,
+                        "name": "a. En el caso, ¿Cómo puede afectar la conducta ética del formador Ramón al diálogo reflexivo que realizará con su docente a cargo?  ",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 2,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 1,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68209,
+                        "feedback": 12188,
+                        "template": 0,
+                        "name": "b. ¿Cuál es el desafío de los formadores para ejercer un comportamiento ético en su rol profesional de formador de docentes? ",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 3,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 2,
+                        "otherdata": null
+                    }
+                ],
+                "warnings": []
+            },
+            "responses": {
+                "attempts": [
+                    {
+                        "id": 1804927,
+                        "courseid": 0,
+                        "userid": 19792,
+                        "timemodified": 1763400914,
+                        "fullname": "JACK WILLIAN AZANG LOPEZ",
+                        "responses": [
+                            {
+                                "id": 68208,
+                                "name": "a. En el caso, ¿Cómo puede ...",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 68209,
+                                "name": "b. ¿Cuál es el desafío de ...",
+                                "printval": "",
+                                "rawval": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1947310,
+                        "courseid": 0,
+                        "userid": 9437,
+                        "timemodified": 1764195078,
+                        "fullname": "KELMA CANAZAS AYERBE",
+                        "responses": [
+                            {
+                                "id": 68208,
+                                "name": "a. En el caso, ¿Cómo puede ...",
+                                "printval": "ertertert",
+                                "rawval": "ertertert"
+                            },
+                            {
+                                "id": 68209,
+                                "name": "b. ¿Cuál es el desafío de ...",
+                                "printval": "ertwertewr",
+                                "rawval": "ertwertewr"
+                            }
+                        ]
+                    }
+                ],
+                "totalattempts": 2,
+                "anonattempts": [],
+                "totalanonattempts": 0,
+                "warnings": []
+            }
+        },
+        {
+            "feedback_id": 12189,
+            "feedback_name": "U2 S2: Autoevaluación/",
+            "questions": {
+                "items": [
+                    {
+                        "id": 67944,
+                        "feedback": 12189,
+                        "template": 0,
+                        "name": "1. Brindé algunas ideas relacionadas al caso en relación a la falta de ética y práctica profesional del formador en la formación docente.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 1,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 1,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67945,
+                        "feedback": 12189,
+                        "template": 0,
+                        "name": "2. Comprendo que la falta de ética o la presencia de la misma tienen implicancias en el acompañamiento que realizo a los docentes a mi cargo.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 2,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 2,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67946,
+                        "feedback": 12189,
+                        "template": 0,
+                        "name": "3. Propuse ideas respecto al desafío de los formadores para ejercer un comportamiento ético en su rol profesional de formador de docentes.",
+                        "label": "",
+                        "presentation": "r>>>>>Sí\r|No<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 3,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "h",
+                        "itemfiles": [],
+                        "itemnumber": 3,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68210,
+                        "feedback": 12189,
+                        "template": 0,
+                        "name": "4. Algo nuevo que descubrí en esta sesión y que aporta a mi práctica profesional como formador es:",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 4,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 4,
+                        "otherdata": null
+                    }
+                ],
+                "warnings": []
+            },
+            "responses": {
+                "attempts": [
+                    {
+                        "id": 1804931,
+                        "courseid": 0,
+                        "userid": 19792,
+                        "timemodified": 1763400929,
+                        "fullname": "JACK WILLIAN AZANG LOPEZ",
+                        "responses": [
+                            {
+                                "id": 67944,
+                                "name": "1. Brindé algunas ideas ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67945,
+                                "name": "2. Comprendo que la falta ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67946,
+                                "name": "3. Propuse ideas respecto ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 68210,
+                                "name": "4. Algo nuevo que descubrí ...",
+                                "printval": "",
+                                "rawval": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1947315,
+                        "courseid": 0,
+                        "userid": 9437,
+                        "timemodified": 1764195095,
+                        "fullname": "KELMA CANAZAS AYERBE",
+                        "responses": [
+                            {
+                                "id": 67944,
+                                "name": "1. Brindé algunas ideas ...",
+                                "printval": "Sí",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67945,
+                                "name": "2. Comprendo que la falta ...",
+                                "printval": "No",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 67946,
+                                "name": "3. Propuse ideas respecto ...",
+                                "printval": "No",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 68210,
+                                "name": "4. Algo nuevo que descubrí ...",
+                                "printval": "dfhgd",
+                                "rawval": "dfhgd"
+                            }
+                        ]
+                    }
+                ],
+                "totalattempts": 2,
+                "anonattempts": [],
+                "totalanonattempts": 0,
+                "warnings": []
+            }
+        },
+        {
+            "feedback_id": 12190,
+            "feedback_name": "Aprendizaje en acción/",
+            "questions": {
+                "items": [
+                    {
+                        "id": 68211,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "1. A partir del caso presentado, ¿cuáles son las prioridades que debe establecer el formador antes de hacer la visita a los docentes?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 1,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 1,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68218,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 2,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68212,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "2. ¿Cómo podrías explicar al director la relevancia de atender al continuum de aprendizaje?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 3,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 2,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68219,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 4,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68213,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "3. Desde tu propia experiencia, ¿cómo caracterizarías el rol del formador en el marco de la formación docente en servicio?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 5,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 3,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68220,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 6,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68214,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "4. ¿Cómo se relacionan el enfoque colaborativo y la autonomía colegiada para el desarrollo y fortalecimiento de las competencias del docente?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 7,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 4,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68221,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 8,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68215,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "5. Teniendo en cuenta la propuesta del Minedu sobre la secuencia metodológica para la reflexión sobre la práctica, ¿por qué será importante realizar la secuencia con cada una de sus fases?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 9,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 5,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68222,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 10,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68216,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "6. De acuerdo con los niveles de reflexión, ¿por qué se menciona que el formador Roberto demostraba ser paciente?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 11,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 6,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68223,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 12,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68217,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "7. Según el caso analizado, ¿qué aspectos éticos del rol del formador han sido aludidos? ¿Qué opinión te merece cada uno de los formadores en el campo ético?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 13,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 7,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68224,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 14,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68225,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "8. Si hubieras estado en el lugar del formador Emilio, ¿qué aspectos de las habilidades comunicativos hubieras tenido en cuenta? ¿Por qué?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 15,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 8,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68263,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 16,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 68264,
+                        "feedback": 12190,
+                        "template": 0,
+                        "name": "Teniendo como base lo aprendido en ambos cursos de este programa y tu rol como formador de docentes, elabora una narración reflexiva sobre la aplicación de una estrategia formativa y los resultados que obtuviste.",
+                        "label": "",
+                        "presentation": "80|20",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 17,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 9,
+                        "otherdata": null
+                    }
+                ],
+                "warnings": []
+            },
+            "responses": {
+                "attempts": [
+                    {
+                        "id": 1960117,
+                        "courseid": 0,
+                        "userid": 9437,
+                        "timemodified": 1764249461,
+                        "fullname": "KELMA CANAZAS AYERBE",
+                        "responses": [
+                            {
+                                "id": 68211,
+                                "name": "1. A partir del caso ...",
+                                "printval": "EWRAWERFR",
+                                "rawval": "EWRAWERFR"
+                            },
+                            {
+                                "id": 68212,
+                                "name": "2. ¿Cómo podrías explicar ...",
+                                "printval": "asDADWSASD",
+                                "rawval": "asDADWSASD"
+                            },
+                            {
+                                "id": 68213,
+                                "name": "3. Desde tu propia ...",
+                                "printval": "ewqwewe",
+                                "rawval": "ewqwewe"
+                            },
+                            {
+                                "id": 68214,
+                                "name": "4. ¿Cómo se relacionan el ...",
+                                "printval": "sadsadsd",
+                                "rawval": "sadsadsd"
+                            },
+                            {
+                                "id": 68215,
+                                "name": "5. Teniendo en cuenta la ...",
+                                "printval": "sfdsdffds",
+                                "rawval": "sfdsdffds"
+                            },
+                            {
+                                "id": 68216,
+                                "name": "6. De acuerdo con los ...",
+                                "printval": "sfsdfsdf",
+                                "rawval": "sfsdfsdf"
+                            },
+                            {
+                                "id": 68217,
+                                "name": "7. Según el caso analizado,...",
+                                "printval": "sgfddfg",
+                                "rawval": "sgfddfg"
+                            },
+                            {
+                                "id": 68225,
+                                "name": "8. Si hubieras estado en el...",
+                                "printval": "fdssadf",
+                                "rawval": "fdssadf"
+                            },
+                            {
+                                "id": 68264,
+                                "name": "Teniendo como base lo ...",
+                                "printval": "sdfdsf",
+                                "rawval": "sdfdsf"
+                            }
+                        ]
+                    }
+                ],
+                "totalattempts": 1,
+                "anonattempts": [],
+                "totalanonattempts": 0,
+                "warnings": []
+            }
+        },
+        {
+            "feedback_id": 12191,
+            "feedback_name": "Encuesta de satisfacción/",
+            "questions": {
+                "items": [
+                    {
+                        "id": 67118,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<p style=\"text-align: justify;font-size: 18px;\">Estimado docente, el propósito de esta encuesta es conocer su nivel de satisfacción con respecto al curso: <strong>Rol del formador como líder transformador de las prácticas educativas.</strong>. Siéntase en la libertad de emitir su opinión de la manera más sincera posible ya que esta encuesta es anónima. La información que usted proporcione será muy valiosa para mejorar y adecuar los siguientes cursos que brindemos. </p>\r\n\r\n\r\n<p style=\"\r\n    text-align: justify;\r\n    font-size: 18px;\r\n\"></p>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 1,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67119,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<br>\n<p style=\" text-align:left;\"><span style=\"background: #174493;padding: 0.5em 0.8em;text-align: center;border-radius:0.5em;color:#fff;font-weight: 800;font-size: 1.2em;\">A. DATOS DEL PARTICIPANTE</span></p>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 2,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67120,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.1. Cargo que ocupa",
+                        "label": "A.1. Cargo que ocupa",
+                        "presentation": "r>>>>>Especialista\n|Director\n|Docente\n|Auxiliar\n|Otro",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 3,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 1,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67121,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 4,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67122,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "Si elegiste 'Otro', por favor especifícalo aquí",
+                        "label": "",
+                        "presentation": "30|255",
+                        "typ": "textfield",
+                        "hasvalue": 1,
+                        "position": 5,
+                        "required": true,
+                        "dependitem": 67120,
+                        "dependvalue": "Otro",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 2,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67123,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 6,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67124,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.1.1. Nivel/Modalidad que atiende",
+                        "label": "",
+                        "presentation": "r>>>>>Inicial\n|Primaria \n|Secundaria\n|EBE\n|EBA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 7,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 3,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67125,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. DRE",
+                        "label": "A.2. DRE",
+                        "presentation": "d>>>>>DRE AMAZONAS\n|DRE ÁNCASH\n|DRE APURÍMAC\n|DRE AREQUIPA\n|DRE AYACUCHO\n|DRE CAJAMARCA\n|DRE CALLAO\n|DRE CUSCO\n|DRE HUANCAVELICA\n|DRE HUÁNUCO\n|DRE ICA\n|DRE JUNÍN\n|DRE LA LIBERTAD\n|DRE LAMBAYEQUE\n|DRE LIMA METROPOLITANA\n|DRE LIMA PROVINCIAS\n|DRE LORETO\n|DRE MADRE DE DIOS\n|DRE MOQUEGUA\n|DRE PASCO\n|DRE PIURA\n|DRE PUNO\n|DRE SAN MARTÍN\n|DRE TACNA\n|DRE TUMBES\n|DRE UCAYALI",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 8,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 4,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67126,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 9,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67127,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL BAGUA\n|UGEL BONGARÁ\n|UGEL CHACHAPOYAS\n|UGEL CONDORCANQUI\n|UGEL IBIR-IMAZA\n|UGEL LUYA\n|UGEL RODRÍGUEZ DE MENDOZA\n|UGEL UTCUBAMBA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 10,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE AMAZONAS",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 5,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67128,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL AIJA\n|UGEL ANTONIO RAYMONDI\n|UGEL ASUNCIÓN\n|UGEL BOLOGNESI\n|UGEL CARHUÁZ\n|UGEL CARLOS FERMIN FITZCARRALD\n|UGEL CASMA\n|UGEL CORONGO\n|UGEL HUARAZ\n|UGEL HUARI\n|UGEL HUARMEY\n|UGEL HUAYLAS\n|UGEL MARISCAL LUZURIAGA\n|UGEL OCROS\n|UGEL PALLASCA\n|UGEL POMABAMBA\n|UGEL RECUAY\n|UGEL SANTA\n|UGEL SIHUAS\n|UGEL YUNGAY",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 11,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE ÁNCASH",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 6,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67129,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL ATALAYA\n|UGEL CORONEL PORTILLO\n|UGEL PADRE ABAD\n|UGEL PURUS",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 12,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE UCAYALI",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 7,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67130,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL CONTRALMIRANTE VILLAR\n|UGEL TUMBES\n|UGEL ZARUMILLA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 13,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE TUMBES",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 8,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67131,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL CANDARAVE\n|UGEL JORGE BASADRE\n|UGEL TACNA\n|UGEL TARATA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 14,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE TACNA",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 9,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67132,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL BELLAVISTA\n|UGEL EL DORADO\n|UGEL HUALLAGA\n|UGEL LAMAS\n|UGEL MARISCAL CÁCERES\n|UGEL MOYOBAMBA\n|UGEL PICOTA\n|UGEL RIOJA\n|UGEL SAN MARTÍN\n|UGEL TOCACHE",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 15,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE SAN MARTÍN",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 10,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67133,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL AZÁNGARO\n|UGEL CARABAYA\n|UGEL CHUCUITO\n|UGEL CRUCERO\n|UGEL EL COLLAO\n|UGEL HUANCANÉ\n|UGEL LAMPA\n|UGEL MELGAR\n|UGEL MOHO\n|UGEL PUNO\n|UGEL SAN ANTONIO DE PUTINA\n|UGEL SAN ROMÁN\n|UGEL SANDIA\n|UGEL YUNGUYO",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 16,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE PUNO",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 11,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67134,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL AYABACA\n|UGEL CHULUCANAS\n|UGEL HUANCABAMBA\n|UGEL HUARMACA\n|UGEL LA UNIÓN\n|UGEL MORROPÓN\n|UGEL PAITA\n|UGEL PIURA\n|UGEL SECHURA\n|UGEL SULLANA\n|UGEL TALARA\n|UGEL TAMBOGRANDE",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 17,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE PIURA",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 12,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67135,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL DANIEL ALCIDES CARRIÓN\n|UGEL OXAPAMPA\n|UGEL PASCO\n|UGEL PUERTO BERMÚDEZ",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 18,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE PASCO",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 13,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67136,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL GENERAL SÁNCHEZ CERRO\n|UGEL ILO\n|UGEL MARISCAL NIETO\n|UGEL SAN IGNACIO DE LOYOLA-ICHUÑA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 19,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE MOQUEGUA",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 14,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67137,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL MANU\n|UGEL TAHUAMANU\n|UGEL TAMBOPATA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 20,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE MADRE DE DIOS",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 15,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67138,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL ALTO AMAZONAS-SAN LORENZO\n|UGEL ALTO AMAZONAS-YURIMAGUAS\n|UGEL LORETO - NAUTA\n|UGEL MAYNAS\n|UGEL PUTUMAYO\n|UGEL RAMÓN CASTILLA-CABALLOCOCHA\n|UGEL REQUENA\n|UGEL UCAYALI-CONTAMANA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 21,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE LORETO",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 16,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67139,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL 08 CAÑETE\n|UGEL 09 HUAURA\n|UGEL 10 HUARAL\n|UGEL 11 CAJATAMBO\n|UGEL 12 CANTA\n|UGEL 13 YAUYOS\n|UGEL 14 OYÓN\n|UGEL 15 HUAROCHIRÍ\n|UGEL 16 BARRANCA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 22,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE LIMA PROVINCIAS",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 17,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67140,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL 01 SAN JUAN DE MIRAFLORES\n|UGEL 02 RÍMAC\n|UGEL 03 BREÑA\n|UGEL 04 COMAS\n|UGEL 05 SAN JUAN DE LURIGANCHO\n|UGEL 06 ATE\n|UGEL 07 SAN BORJA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 23,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE LIMA METROPOLITANA",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 18,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67141,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL CHICLAYO\n|UGEL FERREÑAFE\n|UGEL LAMBAYEQUE",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 24,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE LAMBAYEQUE",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 19,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67142,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL 01 - EL PORVENIR\n|UGEL 02 - LA ESPERANZA\n|UGEL 03 - TRUJILLO NOR OESTE\n|UGEL 04 - TRUJILLO SUR ESTE\n|UGEL ASCOPE\n|UGEL BOLIVAR\n|UGEL CHEPÉN\n|UGEL GRAN CHIMÚ\n|UGEL JULCÁN\n|UGEL OTUZCO\n|UGEL PACASMAYO\n|UGEL PATAZ\n|UGEL SÁNCHEZ CARRIÓN\n|UGEL SANTIAGO DE CHUCO\n|UGEL VIRÚ",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 25,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE LA LIBERTAD",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 20,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67143,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL CHANCHAMAYO\n|UGEL CHUPACA\n|UGEL CONCEPCIÓN\n|UGEL HUANCAYO\n|UGEL JAUJA\n|UGEL JUNÍN\n|UGEL PANGOA\n|UGEL PICHANAKI\n|UGEL RIO ENE-MANTARO\n|UGEL RIO TAMBO\n|UGEL SATIPO\n|UGEL TARMA\n|UGEL YAULI",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 26,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE JUNÍN",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 21,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67144,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL CHINCHA\n|UGEL ICA\n|UGEL NASCA\n|UGEL PALPA\n|UGEL PISCO",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 27,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE ICA",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 22,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67145,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL AMBO\n|UGEL DOS DE MAYO\n|UGEL HUACAYBAMBA\n|UGEL HUAMALÍES\n|UGEL HUÁNUCO\n|UGEL LAURICOCHA\n|UGEL LEONCIO PRADO\n|UGEL MARAÑÓN\n|UGEL PACHITEA\n|UGEL PUERTO INCA\n|UGEL YAROWILCA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 28,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE HUÁNUCO",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 23,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67146,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL ACOBAMBA\n|UGEL ANGARAES\n|UGEL CASTROVIRREYNA\n|UGEL CHURCAMPA\n|UGEL HUANCAVELICA\n|UGEL HUAYTARÁ\n|UGEL SURCUBAMBA\n|UGEL TAYACAJA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 29,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE HUANCAVELICA",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 24,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67147,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL ACOMAYO\n|UGEL ANTA\n|UGEL CALCA\n|UGEL CANAS\n|UGEL CANCHIS\n|UGEL CHUMBIVILCAS\n|UGEL CUSCO\n|UGEL ESPINAR\n|UGEL LA CONVENCIÓN\n|UGEL PARURO\n|UGEL PAUCARTAMBO\n|UGEL PICHARI-KIMBIRI\n|UGEL QUISPICANCHI\n|UGEL URUBAMBA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 30,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE CUSCO",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 25,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67148,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>DRE CALLAO\n|UGEL VENTANILLA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 31,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE CALLAO",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 26,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67149,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL CAJABAMBA\n|UGEL CAJAMARCA\n|UGEL CELENDÍN\n|UGEL CHOTA\n|UGEL CONTUMAZÁ\n|UGEL CUTERVO\n|UGEL HUALGAYOC\n|UGEL JAÉN\n|UGEL SAN IGNACIO\n|UGEL SAN MARCOS\n|UGEL SAN MIGUEL\n|UGEL SAN PABLO\n|UGEL SANTA CRUZ",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 32,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE CAJAMARCA",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 27,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67150,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL CANGALLO\n|UGEL HUAMANGA\n|UGEL HUANCASANCOS\n|UGEL HUANTA\n|UGEL LA MAR\n|UGEL LUCANAS\n|UGEL PARINACOCHAS\n|UGEL PAUCAR DE SARASARA\n|UGEL SUCRE\n|UGEL VÍCTOR FAJARDO\n|UGEL VILCASHUAMÁN",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 33,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE AYACUCHO",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 28,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67151,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL AREQUIPA NORTE\n|UGEL AREQUIPA SUR\n|UGEL CAMANÁ\n|UGEL CARAVELI\n|UGEL CASTILLA\n|UGEL CAYLLOMA\n|UGEL CONDESUYOS\n|UGEL ISLAY\n|UGEL LA JOYA\n|UGEL LA UNIÓN",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 34,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE AREQUIPA",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 29,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67152,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.2. UGEL",
+                        "label": "A.2. UGEL",
+                        "presentation": "d>>>>>UGEL ABANCAY\n|UGEL ANDAHUAYLAS\n|UGEL ANTABAMBA\n|UGEL AYMARAES\n|UGEL CHINCHEROS\n|UGEL COTABAMBAS\n|UGEL GRAU\n|UGEL HUANCARAMA",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 35,
+                        "required": true,
+                        "dependitem": 67125,
+                        "dependvalue": "DRE APURÍMAC",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 30,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67153,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 36,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67154,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.3. Ámbito",
+                        "label": "",
+                        "presentation": "r>>>>>Urbano\n|Rural<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 37,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 31,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67155,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "A.4. Gestión IE",
+                        "label": "",
+                        "presentation": "r>>>>>Pública\n|Privada<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 38,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 32,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67156,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 39,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67157,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<p style=\"  padding: 0.2em 1.2em;font-size:1.2em;\"><span style=\"background: #92c037;color:#fff;padding: 0.2em;border-radius: 0.4em;\">&nbsp;Indicaciones:&nbsp;</span> Por favor seleccione su apreciación en cada una de sus respuestas acuerdo a la siguiente escala: </p>\n<div class=\"row row-cols-1 row-cols-md-3 row-cols-lg-5 justify-content-md-center\" style=\"margin: 1em;text-align: center;\">\n    <span style=\"background: #174493;color:#fff;padding: 0.3em;border-radius: 0.3em;\">&nbsp;&nbsp;1: Nada satisfecho&nbsp;&nbsp;</span>&nbsp; &nbsp;\n    <span style=\"background: #174493;color:#fff;padding: 0.3em;border-radius: 0.3em;\">&nbsp;&nbsp;2: Poco satisfecho&nbsp;&nbsp;</span>&nbsp; &nbsp;\n    <span style=\"background: #174493;color:#fff;padding: 0.3em;border-radius: 0.3em;\">&nbsp;&nbsp;3: Satisfecho&nbsp;&nbsp;</span>&nbsp; &nbsp;\n    <span style=\"background: #174493;color:#fff;padding: 0.3em;border-radius: 0.3em;\">&nbsp;&nbsp;4: Muy satisfecho&nbsp;&nbsp;</span>\n\n    <p></p>\n</div>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 40,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67158,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<br>\n<p style=\" text-align:left;\"><span style=\"background: #174493;padding: 0.5em 0.8em;text-align: center;border-radius:0.5em;color:#fff;font-weight: 800;font-size: 1.2em;\">B. APRECIACIÓN GLOBAL DEL CURSO</span></p>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 41,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67159,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "B.1. Qué tan satisfecho se encuentra con el curso en general.",
+                        "label": "",
+                        "presentation": "r>>>>>Nada satisfecho\n|Poco satisfecho\n|Satisfecho\n|Muy satisfecho<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 42,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 33,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67160,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "B.2. Qué tan satisfecho se encuentra con la utilidad del curso para la aplicación en su práctica pedagógica.",
+                        "label": "",
+                        "presentation": "r>>>>>Nada satisfecho\n|Poco satisfecho\n|Satisfecho\n|Muy satisfecho<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 43,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 34,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67161,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<br>\n<p style=\" text-align:left;\"><span style=\"background: #174493;padding: 0.5em 0.8em;text-align: center;border-radius:0.5em;color:#fff;font-weight: 800;font-size: 1.2em;\">C. METODOLOGÍA DEL CURSO</span></p>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 44,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67162,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "C.1. Qué tan satisfecho se encuentra con el caso de la práctica pedagógica",
+                        "label": "",
+                        "presentation": "r>>>>>Nada satisfecho\n|Poco satisfecho\n|Satisfecho\n|Muy satisfecho<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 45,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 35,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67163,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "C.2. Qué tan satisfecho se encuentra con los ejemplos para la comprensión de conocimientos y saberes",
+                        "label": "",
+                        "presentation": "r>>>>>Nada satisfecho\n|Poco satisfecho\n|Satisfecho\n|Muy satisfecho<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 46,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 36,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67164,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "C.3. Qué tan satisfecho se encuentra con la pertinencia de los medios y recursos (silabus, fascículos, caja de herramientas y videos interactivos) con respecto al propósito del curso",
+                        "label": "",
+                        "presentation": "r>>>>>Nada satisfecho\n|Poco satisfecho\n|Satisfecho\n|Muy satisfecho<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 47,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 37,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67165,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "C.4. Qué tan satisfecho se encuentra con las autoevaluaciones como medio para verificar los aprendizajes del curso",
+                        "label": "",
+                        "presentation": "r>>>>>Nada satisfecho\n|Poco satisfecho\n|Satisfecho\n|Muy satisfecho<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 48,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 38,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67166,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<br>\n<p style=\" text-align:left;\"><span style=\"background: #174493;padding: 0.5em 0.8em;text-align: center;border-radius:0.5em;color:#fff;font-weight: 800;font-size: 1.2em;\">D. CONTENIDO DE LAS UNIDADES DEL CURSO</span></p>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 49,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67167,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "D.1. Qué tan útil encuentra los contenidos de la primera unidad del curso: Las Competencias profesionales del formador y los enfoques de la formación docente en servicio",
+                        "label": "",
+                        "presentation": "r>>>>>Nada satisfecho\r|Poco satisfecho\r|Satisfecho\r|Muy satisfecho<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 50,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 39,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67186,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "D.1. Qué tan útil encuentra los contenidos de la segunda unidad del curso: La reflexión sobre la práctica pedagógica orientada hacia el desarrollo profesional docente",
+                        "label": "",
+                        "presentation": "r>>>>>Nada satisfecho\r|Poco satisfecho\r|Satisfecho\r|Muy satisfecho<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 51,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 40,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67168,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<br>\n<p style=\" text-align:left;\"><span style=\"background: #174493;padding: 0.5em 0.8em;text-align: center;border-radius:0.5em;color:#fff;font-weight: 800;font-size: 1.2em;\">E. SOBRE LA PLATAFORMA VIRTUAL </span></p>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 52,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67169,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "E.1. En una escala del 1 al 10 (donde 1 es el más bajo y 10 el más alto), ¿qué tan fácil le resultó acceder y navegar en la plataforma SIFODS?",
+                        "label": "",
+                        "presentation": "r>>>>>1\n|2\n|3\n|4\n|5\n|6\n|7\n|8\n|9\n|10<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 53,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 41,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67170,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<br>\n<p style=\" text-align:left;\"><span style=\"background: #174493;padding: 0.5em 0.8em;text-align: center;border-radius:0.5em;color:#fff;font-weight: 800;font-size: 1.2em;\">F. COMUNICACIÓN </span></p>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 54,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67171,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "F.1. En una escala del 1 al 10 (donde 1 es el más bajo y 10 el más alto), ¿Qué tan fácil le resultó la comunicación (correos o mensajes de texto o de WhatsApp o llamadas telefónicas) recibidos para iniciar y/o culminar el curso?",
+                        "label": "",
+                        "presentation": "r>>>>>1\n|2\n|3\n|4\n|5\n|6\n|7\n|8\n|9\n|10<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 55,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 42,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67172,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "F2 ¿Cómo se enteró de la apertura del curso? Marque solo una alternativa",
+                        "label": "Apertura-curso",
+                        "presentation": "r>>>>>a. A través de la publicidad en la website y/o redes sociales del Minedu.\n|b. A través de un mensaje por correo electrónico.\n|c. A través de mis colegas.\n|d. A través de los directivos de la IE.\n|e. Otro.",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 56,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 43,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67173,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 57,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67174,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "Si elegiste 'Otro', por favor especifícalo aquí",
+                        "label": "",
+                        "presentation": "30|255",
+                        "typ": "textfield",
+                        "hasvalue": 1,
+                        "position": 58,
+                        "required": true,
+                        "dependitem": 67172,
+                        "dependvalue": "e. Otro.",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 44,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67175,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 59,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67176,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "F3 ¿Cuál fue su principal motivo para inscribirse a este curso?",
+                        "label": "Motivo-curso",
+                        "presentation": "r>>>>>a. Para acumular horas de capacitación para el legajo personal.\n|b. Por los contenidos y recursos ofrecidos.\n|c. Porque me pidieron participar.\n|d. Otro.",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 60,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 45,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67177,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 61,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67178,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "Si elegiste 'Otro', por favor especifícalo aquí",
+                        "label": "",
+                        "presentation": "30|255",
+                        "typ": "textfield",
+                        "hasvalue": 1,
+                        "position": 62,
+                        "required": true,
+                        "dependitem": 67176,
+                        "dependvalue": "d. Otro.",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 46,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67179,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "",
+                        "typ": "pagebreak",
+                        "hasvalue": 0,
+                        "position": 63,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67180,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<br>\r\n<p style=\" text-align:left;\"><span style=\"background: #174493;padding: 0.5em 0.8em;text-align: center;border-radius:0.5em;color:#fff;font-weight: 800;font-size: 1.2em;\">G. APRENDIZAJES DESARROLLADOS</span></p>\r\n\r\n<p style=\"\r\n    font-size: 18px;\r\n    text-align: justify;\r\n\">Considerando que el resultado esperado del curso: \r\n</p>\r\n<ul style=\"\r\n    font-size: 18px;\r\n    text-align: justify;\r\n\">\r\n    <li>\r\n        Identificar en situaciones de la práctica simulada, aspectos básicos del enfoque crítico reflexivo que propicien la mejora de la práctica docente.\r\n    </li>\r\n\r\n</ul>\r\n<p></p>\r\n<p style=\"\r\n    font-size: 18px;\r\n    text-align: justify;\r\n\">\r\n    Estime Ud. los aprendizajes que tenía antes del curso y los que ha logrado al finalizar el curso. Para esta estimación, utilice la escala de valoración del 1 al 10, donde 1 es más bajo y 10 el más alto.\r\n</p>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 64,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67181,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "G.1. Antes del curso",
+                        "label": "",
+                        "presentation": "r>>>>>1\n|2\n|3\n|4\n|5\n|6\n|7\n|8\n|9\n|10<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 65,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 47,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67182,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "G.2. Después del curso",
+                        "label": "",
+                        "presentation": "r>>>>>1\n|2\n|3\n|4\n|5\n|6\n|7\n|8\n|9\n|10<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 66,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "Sí",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 48,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67183,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "",
+                        "label": "",
+                        "presentation": "<br>\n<p style=\" text-align:left;\"><span style=\"background: #174493;padding: 0.5em 0.8em;text-align: center;border-radius:0.5em;color:#fff;font-weight: 800;font-size: 1.2em;\">H. RECOMENDACIONES</span></p>",
+                        "typ": "label",
+                        "hasvalue": 0,
+                        "position": 67,
+                        "required": false,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": null,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67184,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "a) En una escala del 1 al 10 (siendo 1 nada probable y 10 muy probable), ¿qué tan probable es que recomiendes este curso “Rol del formador como líder transformador de las prácticas educativas” a otros docentes?",
+                        "label": "",
+                        "presentation": "r>>>>>1\r|2\r|3\r|4\r|5\r|6\r|7\r|8\r|9\r|10<<<<<1",
+                        "typ": "multichoice",
+                        "hasvalue": 1,
+                        "position": 68,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "ih",
+                        "itemfiles": [],
+                        "itemnumber": 49,
+                        "otherdata": null
+                    },
+                    {
+                        "id": 67185,
+                        "feedback": 12191,
+                        "template": 0,
+                        "name": "b)\t¿Tienes algún comentario o sugerencia para mejorar este curso?",
+                        "label": "",
+                        "presentation": "80|5",
+                        "typ": "textarea",
+                        "hasvalue": 1,
+                        "position": 69,
+                        "required": true,
+                        "dependitem": 0,
+                        "dependvalue": "",
+                        "options": "",
+                        "itemfiles": [],
+                        "itemnumber": 50,
+                        "otherdata": null
+                    }
+                ],
+                "warnings": []
+            },
+            "responses": {
+                "attempts": [
+                    {
+                        "id": 1960323,
+                        "courseid": 0,
+                        "userid": 9437,
+                        "timemodified": 1764250804,
+                        "fullname": "KELMA CANAZAS AYERBE",
+                        "responses": [
+                            {
+                                "id": 67120,
+                                "name": "(A.1. Cargo que ocupa) A.1. Cargo que ocupa",
+                                "printval": "Auxiliar",
+                                "rawval": "4"
+                            },
+                            {
+                                "id": 67122,
+                                "name": "Si elegiste 'Otro', por ...",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67124,
+                                "name": "A.1.1. Nivel/Modalidad que ...",
+                                "printval": "Primaria",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 67125,
+                                "name": "(A.2. DRE) A.2. DRE",
+                                "printval": "DRE AYACUCHO",
+                                "rawval": "5"
+                            },
+                            {
+                                "id": 67127,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67128,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67129,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67130,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67131,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67132,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67133,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67134,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67135,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67136,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67137,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67138,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67139,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67140,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67141,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67142,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67143,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67144,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67145,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67146,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67147,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67148,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67149,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67150,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "UGEL PAUCAR DE SARASARA",
+                                "rawval": "8"
+                            },
+                            {
+                                "id": 67151,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67152,
+                                "name": "(A.2. UGEL) A.2. UGEL",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67154,
+                                "name": "A.3. Ámbito",
+                                "printval": "Urbano",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67155,
+                                "name": "A.4. Gestión IE",
+                                "printval": "Privada",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 67159,
+                                "name": "B.1. Qué tan satisfecho se ...",
+                                "printval": "Nada satisfecho",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67160,
+                                "name": "B.2. Qué tan satisfecho se ...",
+                                "printval": "Poco satisfecho",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 67162,
+                                "name": "C.1. Qué tan satisfecho se ...",
+                                "printval": "Nada satisfecho",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67163,
+                                "name": "C.2. Qué tan satisfecho se ...",
+                                "printval": "Poco satisfecho",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 67164,
+                                "name": "C.3. Qué tan satisfecho se ...",
+                                "printval": "Nada satisfecho",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67165,
+                                "name": "C.4. Qué tan satisfecho se ...",
+                                "printval": "Poco satisfecho",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 67167,
+                                "name": "D.1. Qué tan útil encuentra...",
+                                "printval": "Nada satisfecho",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67186,
+                                "name": "D.1. Qué tan útil encuentra...",
+                                "printval": "Nada satisfecho",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67169,
+                                "name": "E.1. En una escala del 1 al...",
+                                "printval": "6",
+                                "rawval": "6"
+                            },
+                            {
+                                "id": 67171,
+                                "name": "F.1. En una escala del 1 al...",
+                                "printval": "4",
+                                "rawval": "4"
+                            },
+                            {
+                                "id": 67172,
+                                "name": "(Apertura-curso) F2 ¿Cómo se enteró de la ...",
+                                "printval": "c. A través de mis colegas.",
+                                "rawval": "3"
+                            },
+                            {
+                                "id": 67174,
+                                "name": "Si elegiste 'Otro', por ...",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67176,
+                                "name": "(Motivo-curso) F3 ¿Cuál fue su principal ...",
+                                "printval": "a. Para acumular horas de capacitación para el legajo personal.",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67178,
+                                "name": "Si elegiste 'Otro', por ...",
+                                "printval": "",
+                                "rawval": null
+                            },
+                            {
+                                "id": 67181,
+                                "name": "G.1. Antes del curso",
+                                "printval": "1",
+                                "rawval": "1"
+                            },
+                            {
+                                "id": 67182,
+                                "name": "G.2. Después del curso",
+                                "printval": "4",
+                                "rawval": "4"
+                            },
+                            {
+                                "id": 67184,
+                                "name": "a) En una escala del 1 al ...",
+                                "printval": "2",
+                                "rawval": "2"
+                            },
+                            {
+                                "id": 67185,
+                                "name": "b)\t¿Tienes algún comentario...",
+                                "printval": "qweweq",
+                                "rawval": "qweweq"
+                            }
+                        ]
+                    }
+                ],
+                "totalattempts": 1,
+                "anonattempts": [],
+                "totalanonattempts": 0,
+                "warnings": []
+            }
+        }
+    ]
+}

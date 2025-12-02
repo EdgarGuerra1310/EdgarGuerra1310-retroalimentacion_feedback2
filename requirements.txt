@@ -1,0 +1,8 @@
+Flask>=2.0
+requests
+python-docx
+sentence-transformers
+faiss-cpu
+numpy
+openai
+python-dotenv

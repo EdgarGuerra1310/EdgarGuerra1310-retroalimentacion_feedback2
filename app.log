@@ -1,0 +1,938 @@
+2025-11-30 23:53:34,563 - INFO - Loading faiss with AVX2 support.
+2025-11-30 23:53:34,579 - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-30 23:53:39,876 - INFO - Use pytorch device_name: cpu
+2025-11-30 23:53:39,876 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 23:53:42,039 - INFO - Servidor Flask iniciado en 0.0.0.0:5000
+2025-11-30 23:53:42,044 - WARNING -  * Debugger is active!
+2025-11-30 23:53:42,048 - INFO -  * Debugger PIN: 541-095-429
+2025-11-30 23:53:42,137 - INFO - Consulta recibida: user=11, feedbackid=12190
+2025-11-30 23:53:48,195 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 23:53:52,169 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 23:53:55,643 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 23:53:59,364 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 23:54:03,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 23:54:09,410 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 23:54:14,650 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 23:54:20,155 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 23:54:24,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 23:54:24,490 - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:24] "[35m[1mGET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1[0m" 500 -
+2025-11-30 23:54:24,548 - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:24] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-30 23:54:24,548 - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:24] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-30 23:54:24,555 - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:24] "GET /feedback/?__debugger__=yes&cmd=resource&f=console.png&s=bApqrfms1PmoAcirmjxF HTTP/1.1" 200 -
+2025-11-30 23:54:24,574 - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:24] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-30 23:57:57,677 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-01 00:11:12,846 - INFO - Iniciando Flask app
+2025-12-01 00:11:12,854 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.22:5000
+2025-12-01 00:11:12,854 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-01 00:11:12,854 - INFO -  * Restarting with stat
+2025-12-01 00:11:18,057 - INFO - Iniciando Flask app
+2025-12-01 00:11:18,060 - WARNING -  * Debugger is active!
+2025-12-01 00:11:18,061 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:13:13,980 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:13:14,002 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:13:14,023 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:13:14,045 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:13:14,065 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:13:14,084 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:13:14,101 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:13:14,119 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:13:14,136 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:13:14,151 - INFO - 127.0.0.1 - - [01/Dec/2025 00:13:14] "[35m[1mGET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1[0m" 500 -
+2025-12-01 00:13:14,261 - INFO - 127.0.0.1 - - [01/Dec/2025 00:13:14] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-01 00:13:14,262 - INFO - 127.0.0.1 - - [01/Dec/2025 00:13:14] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-01 00:13:14,270 - INFO - 127.0.0.1 - - [01/Dec/2025 00:13:14] "GET /feedback/?__debugger__=yes&cmd=resource&f=console.png&s=SgCanCGeWWLtZA7Y2qby HTTP/1.1" 200 -
+2025-12-01 00:13:14,285 - INFO - 127.0.0.1 - - [01/Dec/2025 00:13:14] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-01 00:15:09,060 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-01 00:15:09,893 - INFO -  * Restarting with stat
+2025-12-01 00:15:17,537 - INFO - Iniciando Flask app
+2025-12-01 00:15:17,542 - WARNING -  * Debugger is active!
+2025-12-01 00:15:17,545 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:15:55,861 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:15:55,869 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:15:55,875 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:15:55,882 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:15:55,889 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:15:55,895 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:15:55,904 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:15:55,913 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:15:55,921 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:15:55,955 - INFO - 127.0.0.1 - - [01/Dec/2025 00:15:55] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-01 00:15:56,026 - INFO - 127.0.0.1 - - [01/Dec/2025 00:15:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-01 00:17:35,126 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-01 00:17:36,046 - INFO -  * Restarting with stat
+2025-12-01 00:17:42,761 - INFO - Iniciando Flask app
+2025-12-01 00:17:42,764 - WARNING -  * Debugger is active!
+2025-12-01 00:17:42,766 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:17:46,339 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:17:46,346 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:17:46,354 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:17:46,362 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:17:46,372 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:17:46,381 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:17:46,389 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:17:46,396 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:17:46,402 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:17:46,419 - INFO - 127.0.0.1 - - [01/Dec/2025 00:17:46] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-01 00:17:46,478 - INFO - 127.0.0.1 - - [01/Dec/2025 00:17:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-01 00:18:31,180 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:18:32,015 - INFO -  * Restarting with stat
+2025-12-01 00:18:39,799 - INFO - Iniciando Flask app
+2025-12-01 00:18:39,803 - WARNING -  * Debugger is active!
+2025-12-01 00:18:39,807 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:19:14,649 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:19:15,417 - INFO -  * Restarting with stat
+2025-12-01 00:19:22,990 - INFO - Iniciando Flask app
+2025-12-01 00:19:22,993 - WARNING -  * Debugger is active!
+2025-12-01 00:19:22,995 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:19:24,427 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:19:24,462 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:19:24,494 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:19:24,524 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:19:24,553 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:19:24,583 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:19:24,614 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:19:24,646 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:19:24,679 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+2025-12-01 00:19:24,695 - INFO - 127.0.0.1 - - [01/Dec/2025 00:19:24] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-01 00:19:24,757 - INFO - 127.0.0.1 - - [01/Dec/2025 00:19:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-01 00:22:43,787 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:22:44,567 - INFO -  * Restarting with stat
+2025-12-01 00:22:52,418 - INFO - Iniciando Flask app
+2025-12-01 00:22:52,422 - WARNING -  * Debugger is active!
+2025-12-01 00:22:52,425 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:22:59,070 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:22:59,851 - INFO -  * Restarting with stat
+2025-12-01 00:23:07,608 - INFO - Iniciando Flask app
+2025-12-01 00:23:07,613 - WARNING -  * Debugger is active!
+2025-12-01 00:23:07,616 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:23:36,018 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:23:36,816 - INFO -  * Restarting with stat
+2025-12-01 00:23:43,005 - INFO - Iniciando Flask app
+2025-12-01 00:23:43,010 - WARNING -  * Debugger is active!
+2025-12-01 00:23:43,012 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:23:44,491 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {source_file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^^^^^^^^
+NameError: name 'source_file' is not defined
+2025-12-01 00:23:44,521 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {source_file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^^^^^^^^
+NameError: name 'source_file' is not defined
+2025-12-01 00:23:44,551 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {source_file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^^^^^^^^
+NameError: name 'source_file' is not defined
+2025-12-01 00:23:44,583 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {source_file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^^^^^^^^
+NameError: name 'source_file' is not defined
+2025-12-01 00:23:44,613 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {source_file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^^^^^^^^
+NameError: name 'source_file' is not defined
+2025-12-01 00:23:44,644 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {source_file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^^^^^^^^
+NameError: name 'source_file' is not defined
+2025-12-01 00:23:44,675 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {source_file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^^^^^^^^
+NameError: name 'source_file' is not defined
+2025-12-01 00:23:44,704 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {source_file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^^^^^^^^
+NameError: name 'source_file' is not defined
+2025-12-01 00:23:44,737 - ERROR - Error en evaluación
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\app.py", line 76, in feedback_view
+    eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 214, in evaluar_pregunta_con_contexto
+    gpt_eval = pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion_text)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 180, in pedir_evaluacion_a_gpt
+    prompt = construir_prompt(pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion)
+  File "C:\Users\User\Documents\IA\Minedu_IA\IA_Aprendizaje_Accion\Formador_Formadores\Curso2\evaluador_gpt.py", line 170, in construir_prompt
+    - recommended_review: lista de objetos con {source_file, page, snippet, reason} (indica qué revisar y por qué)
+                                                ^^^^^^^^^^^
+NameError: name 'source_file' is not defined
+2025-12-01 00:23:44,749 - INFO - 127.0.0.1 - - [01/Dec/2025 00:23:44] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-01 00:23:44,815 - INFO - 127.0.0.1 - - [01/Dec/2025 00:23:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-01 00:24:57,609 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:24:58,501 - INFO -  * Restarting with stat
+2025-12-01 00:25:06,137 - INFO - Iniciando Flask app
+2025-12-01 00:25:06,141 - WARNING -  * Debugger is active!
+2025-12-01 00:25:06,144 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:25:28,399 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:25:35,404 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:25:44,839 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:25:52,598 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:26:02,022 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:26:11,254 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:26:21,440 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:26:28,385 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:26:33,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:26:33,791 - INFO - 127.0.0.1 - - [01/Dec/2025 00:26:33] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-01 00:26:33,828 - INFO - 127.0.0.1 - - [01/Dec/2025 00:26:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-01 00:30:35,389 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:30:36,297 - INFO -  * Restarting with stat
+2025-12-01 00:30:44,061 - INFO - Iniciando Flask app
+2025-12-01 00:30:44,066 - WARNING -  * Debugger is active!
+2025-12-01 00:30:44,068 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:30:45,297 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:30:46,105 - INFO -  * Restarting with stat
+2025-12-01 00:30:53,688 - INFO - Iniciando Flask app
+2025-12-01 00:30:53,691 - WARNING -  * Debugger is active!
+2025-12-01 00:30:53,692 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:31:07,214 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:31:12,918 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:31:21,260 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:31:32,380 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:31:42,606 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:31:51,381 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:31:59,968 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:32:10,876 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:32:18,414 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:32:18,434 - INFO - 127.0.0.1 - - [01/Dec/2025 00:32:18] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-01 00:32:18,473 - INFO - 127.0.0.1 - - [01/Dec/2025 00:32:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-01 00:38:32,982 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:38:41,450 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:38:46,821 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:38:52,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:39:01,923 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:39:08,426 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:39:14,898 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:39:28,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:39:37,303 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:39:37,344 - INFO - 127.0.0.1 - - [01/Dec/2025 00:39:37] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-01 00:39:37,350 - INFO - 127.0.0.1 - - [01/Dec/2025 00:39:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-01 00:53:02,727 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:53:03,617 - INFO -  * Restarting with stat
+2025-12-01 00:53:11,402 - INFO - Iniciando Flask app
+2025-12-01 00:53:11,409 - WARNING -  * Debugger is active!
+2025-12-01 00:53:11,412 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:53:23,494 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:53:24,388 - INFO -  * Restarting with stat
+2025-12-01 00:53:32,055 - INFO - Iniciando Flask app
+2025-12-01 00:53:32,060 - WARNING -  * Debugger is active!
+2025-12-01 00:53:32,064 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:53:44,144 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 00:53:44,991 - INFO -  * Restarting with stat
+2025-12-01 00:53:51,296 - INFO - Iniciando Flask app
+2025-12-01 00:53:51,299 - WARNING -  * Debugger is active!
+2025-12-01 00:53:51,301 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 00:54:03,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:54:09,011 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:54:13,587 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:54:18,835 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:54:25,900 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:54:30,808 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:54:37,425 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:54:41,761 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:54:48,773 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:54:48,793 - INFO - 127.0.0.1 - - [01/Dec/2025 00:54:48] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-01 00:54:48,834 - INFO - 127.0.0.1 - - [01/Dec/2025 00:54:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-01 00:59:06,512 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:59:11,760 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:59:16,516 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:59:22,425 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:59:26,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:59:31,317 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:59:36,116 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:59:43,086 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:59:48,237 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 00:59:48,276 - INFO - 127.0.0.1 - - [01/Dec/2025 00:59:48] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-01 00:59:48,281 - INFO - 127.0.0.1 - - [01/Dec/2025 00:59:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-01 10:40:38,008 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-01 10:40:39,250 - INFO -  * Restarting with stat
+2025-12-01 10:41:23,015 - INFO - Iniciando Flask app
+2025-12-01 10:41:23,070 - WARNING -  * Debugger is active!
+2025-12-01 10:41:23,073 - INFO -  * Debugger PIN: 541-095-429
+2025-12-01 10:41:35,180 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:41:44,080 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:41:49,145 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:41:55,457 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:42:02,043 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:42:06,116 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:42:10,300 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:42:15,776 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:42:26,969 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:42:27,020 - INFO - 127.0.0.1 - - [01/Dec/2025 10:42:27] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-01 10:42:27,100 - INFO - 127.0.0.1 - - [01/Dec/2025 10:42:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 06:17:26,507 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-02 06:17:27,839 - INFO -  * Restarting with stat
+2025-12-02 06:18:16,696 - INFO - Iniciando Flask app
+2025-12-02 06:18:16,752 - WARNING -  * Debugger is active!
+2025-12-02 06:18:16,754 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 06:18:27,066 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:18:34,673 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:18:38,656 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:18:44,540 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:18:50,531 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:18:56,186 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:19:03,149 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:19:10,010 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:19:18,020 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:19:18,058 - INFO - 127.0.0.1 - - [02/Dec/2025 06:19:18] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-02 06:19:18,114 - INFO - 127.0.0.1 - - [02/Dec/2025 06:19:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 06:25:48,943 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-02 06:25:49,822 - INFO -  * Restarting with stat
+2025-12-02 06:25:55,581 - INFO - Iniciando Flask app
+2025-12-02 06:25:55,584 - WARNING -  * Debugger is active!
+2025-12-02 06:25:55,585 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 06:25:57,880 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-02 06:25:58,592 - INFO -  * Restarting with stat
+2025-12-02 06:26:04,730 - INFO - Iniciando Flask app
+2025-12-02 06:26:04,736 - WARNING -  * Debugger is active!
+2025-12-02 06:26:04,739 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 06:26:05,988 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-02 06:26:06,874 - INFO -  * Restarting with stat
+2025-12-02 06:26:13,123 - INFO - Iniciando Flask app
+2025-12-02 06:26:13,126 - WARNING -  * Debugger is active!
+2025-12-02 06:26:13,128 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 06:26:19,425 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:26:23,582 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:26:27,491 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:26:32,823 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:26:37,915 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:26:42,418 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:26:48,959 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:26:53,357 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:27:02,680 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:27:02,691 - INFO - 127.0.0.1 - - [02/Dec/2025 06:27:02] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-02 06:27:02,732 - INFO - 127.0.0.1 - - [02/Dec/2025 06:27:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 06:52:50,186 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-02 06:52:51,125 - INFO -  * Restarting with stat
+2025-12-02 06:52:59,411 - INFO - Iniciando Flask app
+2025-12-02 06:52:59,416 - WARNING -  * Debugger is active!
+2025-12-02 06:52:59,419 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 06:53:06,987 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:53:11,750 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:53:16,101 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:53:21,906 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:53:26,787 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:53:31,863 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:53:39,595 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:53:45,128 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:53:52,697 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:53:52,715 - INFO - 127.0.0.1 - - [02/Dec/2025 06:53:52] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-02 06:53:52,789 - INFO - 127.0.0.1 - - [02/Dec/2025 06:53:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 06:54:51,135 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-02 06:54:51,974 - INFO -  * Restarting with stat
+2025-12-02 06:54:59,738 - INFO - Iniciando Flask app
+2025-12-02 06:54:59,743 - WARNING -  * Debugger is active!
+2025-12-02 06:54:59,746 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 06:56:34,814 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-02 06:56:35,687 - INFO -  * Restarting with stat
+2025-12-02 06:56:43,191 - INFO - Iniciando Flask app
+2025-12-02 06:56:43,194 - WARNING -  * Debugger is active!
+2025-12-02 06:56:43,196 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 06:56:49,310 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:56:54,860 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:56:59,412 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:57:04,903 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:57:10,326 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:57:15,594 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:57:22,088 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:57:27,920 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:57:33,613 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 06:57:33,629 - INFO - 127.0.0.1 - - [02/Dec/2025 06:57:33] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-02 06:57:33,668 - INFO - 127.0.0.1 - - [02/Dec/2025 06:57:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 07:00:30,775 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-02 07:00:31,680 - INFO -  * Restarting with stat
+2025-12-02 07:00:38,147 - INFO - Iniciando Flask app
+2025-12-02 07:00:38,150 - WARNING -  * Debugger is active!
+2025-12-02 07:00:38,152 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 07:00:49,033 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:00:54,444 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:00:59,808 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:01:04,556 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:01:10,300 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:01:15,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:01:21,476 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:01:25,883 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:01:44,517 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:01:44,535 - INFO - 127.0.0.1 - - [02/Dec/2025 07:01:44] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-02 07:01:44,609 - INFO - 127.0.0.1 - - [02/Dec/2025 07:01:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 07:04:34,291 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-02 07:04:35,217 - INFO -  * Restarting with stat
+2025-12-02 07:04:43,522 - INFO - Iniciando Flask app
+2025-12-02 07:04:43,525 - WARNING -  * Debugger is active!
+2025-12-02 07:04:43,527 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 07:04:50,762 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:04:56,695 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:05:01,301 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:05:06,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:05:11,594 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:05:16,768 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:05:22,917 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:05:27,785 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:05:44,379 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:05:44,386 - INFO - 127.0.0.1 - - [02/Dec/2025 07:05:44] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-02 07:05:44,427 - INFO - 127.0.0.1 - - [02/Dec/2025 07:05:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 07:10:32,698 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-02 07:10:33,603 - INFO -  * Restarting with stat
+2025-12-02 07:10:40,757 - INFO - Iniciando Flask app
+2025-12-02 07:10:40,762 - WARNING -  * Debugger is active!
+2025-12-02 07:10:40,765 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 07:10:48,264 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:10:53,274 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:10:57,935 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:11:02,891 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:11:08,082 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:11:13,873 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:11:17,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:11:22,221 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:11:29,523 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:11:29,540 - INFO - 127.0.0.1 - - [02/Dec/2025 07:11:29] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1" 200 -
+2025-12-02 07:11:29,615 - INFO - 127.0.0.1 - - [02/Dec/2025 07:11:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 07:12:25,604 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-02 07:12:26,504 - INFO -  * Restarting with stat
+2025-12-02 07:12:34,422 - INFO - Iniciando Flask app
+2025-12-02 07:12:34,428 - WARNING -  * Debugger is active!
+2025-12-02 07:12:34,431 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 07:31:03,931 - INFO - Iniciando Flask app
+2025-12-02 07:31:03,949 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.22:5000
+2025-12-02 07:31:03,949 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-02 07:31:03,949 - INFO -  * Restarting with stat
+2025-12-02 07:31:09,877 - INFO - Iniciando Flask app
+2025-12-02 07:31:09,880 - WARNING -  * Debugger is active!
+2025-12-02 07:31:09,882 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 07:31:25,262 - INFO - 127.0.0.1 - - [02/Dec/2025 07:31:25] "[35m[1mGET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA HTTP/1.1[0m" 500 -
+2025-12-02 07:31:25,371 - INFO - 127.0.0.1 - - [02/Dec/2025 07:31:25] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-02 07:31:25,389 - INFO - 127.0.0.1 - - [02/Dec/2025 07:31:25] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-02 07:31:25,398 - INFO - 127.0.0.1 - - [02/Dec/2025 07:31:25] "GET /feedback/?__debugger__=yes&cmd=resource&f=console.png&s=F0NKq9Azr1FjSIyrY0O6 HTTP/1.1" 200 -
+2025-12-02 07:31:25,419 - INFO - 127.0.0.1 - - [02/Dec/2025 07:31:25] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-02 07:33:16,085 - INFO - 127.0.0.1 - - [02/Dec/2025 07:33:16] "[35m[1mGET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1[0m" 500 -
+2025-12-02 07:33:16,090 - INFO - 127.0.0.1 - - [02/Dec/2025 07:33:16] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-02 07:33:16,092 - INFO - 127.0.0.1 - - [02/Dec/2025 07:33:16] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-02 07:33:16,096 - INFO - 127.0.0.1 - - [02/Dec/2025 07:33:16] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=console.png&s=F0NKq9Azr1FjSIyrY0O6 HTTP/1.1[0m" 304 -
+2025-12-02 07:35:04,349 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:35:04,381 - INFO - 127.0.0.1 - - [02/Dec/2025 07:35:04] "[35m[1mGET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1[0m" 500 -
+2025-12-02 07:35:04,389 - INFO - 127.0.0.1 - - [02/Dec/2025 07:35:04] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-02 07:35:04,390 - INFO - 127.0.0.1 - - [02/Dec/2025 07:35:04] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-02 07:35:04,394 - INFO - 127.0.0.1 - - [02/Dec/2025 07:35:04] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=console.png&s=F0NKq9Azr1FjSIyrY0O6 HTTP/1.1[0m" 304 -
+2025-12-02 07:35:04,408 - INFO - 127.0.0.1 - - [02/Dec/2025 07:35:04] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-02 07:36:05,882 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\db.py', reloading
+2025-12-02 07:36:06,779 - INFO -  * Restarting with stat
+2025-12-02 07:36:14,755 - INFO - Iniciando Flask app
+2025-12-02 07:36:14,760 - WARNING -  * Debugger is active!
+2025-12-02 07:36:14,763 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 07:36:25,174 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:36:25,206 - INFO - 127.0.0.1 - - [02/Dec/2025 07:36:25] "[35m[1mGET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1[0m" 500 -
+2025-12-02 07:36:25,265 - INFO - 127.0.0.1 - - [02/Dec/2025 07:36:25] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-02 07:36:25,266 - INFO - 127.0.0.1 - - [02/Dec/2025 07:36:25] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-02 07:36:25,271 - INFO - 127.0.0.1 - - [02/Dec/2025 07:36:25] "GET /feedback/?__debugger__=yes&cmd=resource&f=console.png&s=J6RUEs39EXUwl0EvuAJc HTTP/1.1" 200 -
+2025-12-02 07:36:25,275 - INFO - 127.0.0.1 - - [02/Dec/2025 07:36:25] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-02 07:37:06,090 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\db.py', reloading
+2025-12-02 07:37:06,937 - INFO -  * Restarting with stat
+2025-12-02 07:37:14,886 - INFO - Iniciando Flask app
+2025-12-02 07:37:14,889 - WARNING -  * Debugger is active!
+2025-12-02 07:37:14,891 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 07:37:58,742 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\db.py', reloading
+2025-12-02 07:37:59,613 - INFO -  * Restarting with stat
+2025-12-02 07:38:06,865 - INFO - Iniciando Flask app
+2025-12-02 07:38:06,871 - WARNING -  * Debugger is active!
+2025-12-02 07:38:06,874 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 07:38:14,038 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:38:19,646 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:38:24,703 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:38:29,621 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:38:34,315 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:38:38,883 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:38:45,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:38:51,210 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:38:59,213 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:38:59,256 - INFO - 127.0.0.1 - - [02/Dec/2025 07:38:59] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 07:38:59,292 - INFO - 127.0.0.1 - - [02/Dec/2025 07:38:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 07:40:26,502 - INFO - 127.0.0.1 - - [02/Dec/2025 07:40:26] "[35m[1mGET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1[0m" 500 -
+2025-12-02 07:40:26,507 - INFO - 127.0.0.1 - - [02/Dec/2025 07:40:26] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-02 07:40:26,508 - INFO - 127.0.0.1 - - [02/Dec/2025 07:40:26] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-02 07:40:26,515 - INFO - 127.0.0.1 - - [02/Dec/2025 07:40:26] "GET /feedback/?__debugger__=yes&cmd=resource&f=console.png&s=lX3xEVEYoNqbB8FK04BA HTTP/1.1" 200 -
+2025-12-02 07:40:26,521 - INFO - 127.0.0.1 - - [02/Dec/2025 07:40:26] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-02 07:43:11,788 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-02 07:43:12,748 - INFO -  * Restarting with stat
+2025-12-02 07:43:18,371 - INFO - Iniciando Flask app
+2025-12-02 07:43:18,375 - WARNING -  * Debugger is active!
+2025-12-02 07:43:18,377 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 07:43:21,830 - INFO - 127.0.0.1 - - [02/Dec/2025 07:43:21] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 07:43:21,868 - INFO - 127.0.0.1 - - [02/Dec/2025 07:43:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 07:51:35,936 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:51:40,994 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:51:44,856 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:51:49,352 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:51:53,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:51:57,699 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:52:01,059 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:52:06,456 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:52:13,521 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 07:52:13,549 - INFO - 127.0.0.1 - - [02/Dec/2025 07:52:13] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 07:52:13,554 - INFO - 127.0.0.1 - - [02/Dec/2025 07:52:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 07:55:23,866 - INFO - 127.0.0.1 - - [02/Dec/2025 07:55:23] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 07:55:23,872 - INFO - 127.0.0.1 - - [02/Dec/2025 07:55:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 07:55:56,440 - INFO - 127.0.0.1 - - [02/Dec/2025 07:55:56] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 07:55:56,445 - INFO - 127.0.0.1 - - [02/Dec/2025 07:55:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
