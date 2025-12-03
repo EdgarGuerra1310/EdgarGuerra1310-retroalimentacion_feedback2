@@ -262,24 +262,28 @@ RÚBRICA DE NIVELES DE REFLEXIÓN:
 
 INSTRUCCIONES:
 0) Brinda retroalimentación profesional, directa y respetuosa. escribe en primera persona.
-1) Tu salida debe incluir ÚNICAMENTE:
+1) Tu salida debe incluir ÚNICAMENTE y siempre tiene que tener:
    - El **nivel donde se ubica** la respuesta.
    - Una **Valoración inicial** basada en:
        * reconocer el esfuerzo del participante,
        * señalar si falta introspección,
        * identificar si la respuesta es meramente descriptiva.
+       * Sin mencionar el nivel en el que está
    - Un **Fundamento conceptual** basado en:
        * la relación entre la respuesta y la rúbrica,
        * identificación del tipo de racionalidad (descriptiva, práctica, pedagógica o crítica),
        * análisis del foco (externo vs interno).
+       * Sin mencionar el nivel en el que está
    - Una **Orientación de mejora** basada en:
        * centrar análisis en acciones propias,
        * conectar decisiones tomadas con el objetivo pedagógico,
        * indicar cómo podría mejorar su mediación.
+       * Sin mencionar el nivel en el que está
    - Una **Recomendación de profundización** basada en:
        * principios andragógicos,
        * relación entre la práctica y la toma de decisiones,
        * una pregunta o invitación concreta para reflexionar a mayor nivel.
+       * Sin mencionar el nivel en el que está
 
 2) No utilices exactamente los textos guía; úsalos como REFERENTE conceptual para elaborar tu propio contenido.
 3) No evalúes criterio por criterio.

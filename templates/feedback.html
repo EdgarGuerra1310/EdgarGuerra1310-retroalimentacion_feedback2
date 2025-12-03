@@ -69,16 +69,23 @@
                     <div class="p-3 border rounded" style="background:#f8f9fa;">
 
                         {% for bloque in secciones %}
-                            {% if ':' in bloque %}
-                                <p style="margin-bottom:12px; line-height:1.5;">
-                                    <strong>{{ bloque.split(':')[0] }}:</strong>
-                                    {{ bloque.split(':', 1)[1] }}
-                                </p>
-                            {% else %}
-                                <p style="margin-bottom:12px; line-height:1.5;">
-                                    {{ bloque }}
-                                </p>
+
+                            {# --- OCULTAR CUALQUIER BLOQUE QUE EMPIECE CON "Nivel" --- #}
+                            {% if not bloque.strip().lower().startswith("nivel") %}
+
+                                {% if ':' in bloque %}
+                                    <p style="margin-bottom:12px; line-height:1.5;">
+                                        <strong>{{ bloque.split(':')[0] }}:</strong>
+                                        {{ bloque.split(':', 1)[1] }}
+                                    </p>
+                                {% else %}
+                                    <p style="margin-bottom:12px; line-height:1.5;">
+                                        {{ bloque }}
+                                    </p>
+                                {% endif %}
+
                             {% endif %}
+
                         {% endfor %}
 
                     </div>
