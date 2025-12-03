@@ -936,3 +936,126 @@ NameError: name 'source_file' is not defined
 2025-12-02 07:55:23,872 - INFO - 127.0.0.1 - - [02/Dec/2025 07:55:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
 2025-12-02 07:55:56,440 - INFO - 127.0.0.1 - - [02/Dec/2025 07:55:56] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
 2025-12-02 07:55:56,445 - INFO - 127.0.0.1 - - [02/Dec/2025 07:55:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 23:09:13,987 - INFO - Iniciando Flask app
+2025-12-02 23:09:14,064 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.22:5000
+2025-12-02 23:09:14,064 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-02 23:09:14,070 - INFO -  * Restarting with stat
+2025-12-02 23:09:20,042 - INFO - Iniciando Flask app
+2025-12-02 23:09:20,045 - WARNING -  * Debugger is active!
+2025-12-02 23:09:20,048 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 23:12:33,099 - INFO - 127.0.0.1 - - [02/Dec/2025 23:12:33] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 23:12:33,182 - INFO - 127.0.0.1 - - [02/Dec/2025 23:12:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 23:14:21,647 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:14:26,095 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:14:32,044 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:14:37,492 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:14:42,532 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:14:47,118 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:14:52,863 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:14:58,998 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:15:05,600 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:15:05,638 - INFO - 127.0.0.1 - - [02/Dec/2025 23:15:05] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 23:15:05,643 - INFO - 127.0.0.1 - - [02/Dec/2025 23:15:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 23:15:21,497 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-02 23:15:22,384 - INFO -  * Restarting with stat
+2025-12-02 23:15:30,468 - INFO - Iniciando Flask app
+2025-12-02 23:15:30,471 - WARNING -  * Debugger is active!
+2025-12-02 23:15:30,473 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 23:23:37,516 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-02 23:23:38,360 - INFO -  * Restarting with stat
+2025-12-02 23:23:47,087 - INFO - Iniciando Flask app
+2025-12-02 23:23:47,092 - WARNING -  * Debugger is active!
+2025-12-02 23:23:47,095 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 23:24:01,719 - INFO - Iniciando Flask app
+2025-12-02 23:24:01,725 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.22:5000
+2025-12-02 23:24:01,725 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-02 23:24:01,726 - INFO -  * Restarting with stat
+2025-12-02 23:24:08,046 - INFO - Iniciando Flask app
+2025-12-02 23:24:08,051 - WARNING -  * Debugger is active!
+2025-12-02 23:24:08,055 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 23:24:11,249 - INFO - 127.0.0.1 - - [02/Dec/2025 23:24:11] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 23:24:11,323 - INFO - 127.0.0.1 - - [02/Dec/2025 23:24:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 23:24:50,722 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:24:56,347 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:25:01,471 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:25:06,015 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:25:11,503 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:25:17,804 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:25:28,139 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:25:39,133 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:25:45,017 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:25:45,043 - INFO - 127.0.0.1 - - [02/Dec/2025 23:25:45] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 23:25:45,049 - INFO - 127.0.0.1 - - [02/Dec/2025 23:25:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 23:28:36,957 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-02 23:28:37,849 - INFO -  * Restarting with stat
+2025-12-02 23:28:46,579 - INFO - Iniciando Flask app
+2025-12-02 23:28:46,584 - WARNING -  * Debugger is active!
+2025-12-02 23:28:46,587 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 23:28:53,317 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-02 23:28:54,203 - INFO -  * Restarting with stat
+2025-12-02 23:29:02,675 - INFO - Iniciando Flask app
+2025-12-02 23:29:02,681 - WARNING -  * Debugger is active!
+2025-12-02 23:29:02,685 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 23:29:16,053 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\app.py', reloading
+2025-12-02 23:29:16,972 - INFO -  * Restarting with stat
+2025-12-02 23:29:25,094 - INFO - Iniciando Flask app
+2025-12-02 23:29:25,100 - WARNING -  * Debugger is active!
+2025-12-02 23:29:25,104 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 23:29:33,581 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:29:39,734 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:29:44,566 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:29:49,503 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:29:55,053 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:30:00,891 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:30:09,944 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:30:17,633 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:30:23,978 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:30:24,025 - INFO - 127.0.0.1 - - [02/Dec/2025 23:30:24] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 23:30:24,099 - INFO - 127.0.0.1 - - [02/Dec/2025 23:30:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 23:32:14,087 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\respuestas_v2.py', reloading
+2025-12-02 23:32:15,046 - INFO -  * Restarting with stat
+2025-12-02 23:32:23,181 - INFO - Iniciando Flask app
+2025-12-02 23:32:23,186 - WARNING -  * Debugger is active!
+2025-12-02 23:32:23,190 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 23:34:00,787 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\respuestas_v2.py', reloading
+2025-12-02 23:34:01,681 - INFO -  * Restarting with stat
+2025-12-02 23:34:09,989 - INFO - Iniciando Flask app
+2025-12-02 23:34:09,994 - WARNING -  * Debugger is active!
+2025-12-02 23:34:09,997 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 23:52:47,942 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading
+2025-12-02 23:52:48,806 - INFO -  * Restarting with stat
+2025-12-02 23:52:57,699 - INFO - Iniciando Flask app
+2025-12-02 23:52:57,705 - WARNING -  * Debugger is active!
+2025-12-02 23:52:57,709 - INFO -  * Debugger PIN: 541-095-429
+2025-12-02 23:53:31,267 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:53:38,502 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:53:44,829 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:53:51,312 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:54:01,707 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:54:08,658 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:54:14,914 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:54:22,582 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:54:29,061 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 23:54:29,099 - INFO - 127.0.0.1 - - [02/Dec/2025 23:54:29] "GET /feedback/?id_user=11&feedbackid=12190&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1" 200 -
+2025-12-02 23:54:29,173 - INFO - 127.0.0.1 - - [02/Dec/2025 23:54:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-02 23:57:22,197 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\respuestas_v2.py', reloading
+2025-12-02 23:57:23,151 - INFO -  * Restarting with stat
+2025-12-02 23:57:31,365 - INFO - Iniciando Flask app
+2025-12-02 23:57:31,370 - WARNING -  * Debugger is active!
+2025-12-02 23:57:31,373 - INFO -  * Debugger PIN: 541-095-429
+2025-12-03 00:05:57,066 - INFO - 127.0.0.1 - - [03/Dec/2025 00:05:57] "[35m[1mGET /feedback/?id_user=11&feedbackid=12283&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1[0m" 500 -
+2025-12-03 00:05:57,194 - INFO - 127.0.0.1 - - [03/Dec/2025 00:05:57] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-03 00:05:57,196 - INFO - 127.0.0.1 - - [03/Dec/2025 00:05:57] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-03 00:05:57,222 - INFO - 127.0.0.1 - - [03/Dec/2025 00:05:57] "GET /feedback/?__debugger__=yes&cmd=resource&f=console.png&s=xpfftrdcpEHCwdyTPmSn HTTP/1.1" 200 -
+2025-12-03 00:05:57,242 - INFO - 127.0.0.1 - - [03/Dec/2025 00:05:57] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-03 00:10:36,223 - INFO - 127.0.0.1 - - [03/Dec/2025 00:10:36] "[35m[1mGET /feedback/?id_user=11&feedbackid=12283&nombre_usuario=KELMA&curid=1484&user_id=411&documento_identidad=75282646 HTTP/1.1[0m" 500 -
+2025-12-03 00:10:36,228 - INFO - 127.0.0.1 - - [03/Dec/2025 00:10:36] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-03 00:10:36,229 - INFO - 127.0.0.1 - - [03/Dec/2025 00:10:36] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-03 00:10:36,234 - INFO - 127.0.0.1 - - [03/Dec/2025 00:10:36] "[36mGET /feedback/?__debugger__=yes&cmd=resource&f=console.png&s=xpfftrdcpEHCwdyTPmSn HTTP/1.1[0m" 304 -
+2025-12-03 00:19:28,144 - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\IA\\Minedu_IA\\IA_Aprendizaje_Accion\\Formador_Formadores\\Curso2\\evaluador_gpt.py', reloading

@@ -237,6 +237,7 @@ def construir_prompt_rubrica_niveles(pregunta, respuesta, expected_text, rubrica
     trans = f"\n\nTRANSCRIPCIÓN DEL VIDEO:\n{transcripcion}\n\n" if transcripcion else ""
 
     niveles_text = ""
+    print(pregunta)
     for nivel, descripcion in rubrica_entry.get("levels", {}).items():
         niveles_text += f"\n🔹 **{nivel}**:\n{descripcion}\n"
 
@@ -334,16 +335,20 @@ def pedir_evaluacion_a_gpt(pregunta, respuesta, expected_text, rubric_text, chun
                            pregunta_id=None, rubrica_entry=None):
 
     # Caso especial: ID 68264 con rúbrica de niveles
-    if str(pregunta_id) == "68264" and rubrica_entry and "levels" in rubrica_entry:
-        prompt = construir_prompt_rubrica_niveles(
-            pregunta, respuesta, expected_text, rubrica_entry, chunks, transcripcion
-        )
 
-    else:
-        # Caso normal para todas las otras preguntas
-        prompt = construir_prompt(
-            pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion
-        )
+    #if str(pregunta_id) == "68264" and rubrica_entry and "levels" in rubrica_entry:
+    #    prompt = construir_prompt_rubrica_niveles(
+    #        pregunta, respuesta, expected_text, rubrica_entry, chunks, transcripcion
+    #    )
+#
+    #else:
+    #    # Caso normal para todas las otras preguntas
+    #    prompt = construir_prompt(
+    #        pregunta, respuesta, expected_text, rubric_text, chunks, transcripcion
+    #    )
+    prompt = construir_prompt_rubrica_niveles(
+             pregunta, respuesta, expected_text, rubrica_entry, chunks, transcripcion
+    )
 
     completion = client.chat.completions.create(
         model="gpt-4.1-mini",

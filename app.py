@@ -41,92 +41,31 @@ def get_analysis(feedback_id):
     r.raise_for_status()
     return r.json()
 
-#@app.route("/feedback/", methods=["GET"])
-#def feedback_view():
-#    id_user = request.args.get("id_user") or request.args.get("id") or request.args.get("userid")
-#    feedbackid = request.args.get("feedbackid")
-#    nombre_usuario = request.args.get("nombre_usuario") or request.args.get("nombre") or "Usuario"
-#
-#    if not id_user or not feedbackid:
-#        return "Faltan parámetros. Usa ?id_user=...&feedbackid=...&nombre_usuario=...", 400
-#
-#    try:
-#        data = get_analysis(feedbackid)
-#    except Exception as e:
-#        logging.exception("Error consultando Moodle")
-#        return f"Error al obtener datos de Moodle: {e}", 500
-#
-#    attempts = data.get("attempts", [])
-#    user_attempts = [a for a in attempts if str(a.get("userid")) == str(id_user)]
-#    if not user_attempts:
-#        return f"No se encontraron intentos para usuario {id_user} en feedback {feedbackid}", 200
-#
-#    # ordenar por timemodified
-#    attempts_sorted = sorted(user_attempts, key=lambda x: x.get("timemodified", 0))
-#
-#    results = []  # lista de item por cada respuesta (mantener orden)
-#    intentos_por_usuario = defaultdict(int)
-#
-#    for attempt in attempts_sorted:
-#        uid = attempt.get("userid")
-#        intentos_por_usuario[uid] += 1
-#        intento_num = intentos_por_usuario[uid]
-#        ts = attempt.get("timemodified", 0)
-#        fecha = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(ts))
-#
-#        for resp in attempt.get("responses", []):
-#            pregunta_id = str(resp.get("id"))
-#            pregunta_text = resp.get("name") or ""
-#            respuesta_text = (resp.get("rawval") or "").strip()
-#
-#            # Evaluar
-#            try:
-#                eval_result = evaluar_pregunta_con_contexto(pregunta_text, respuesta_text, pregunta_id)
-#            except Exception as e:
-#                logging.exception("Error en evaluación")
-#                eval_result = {
-#                    "pregunta": pregunta_text,
-#                    "pregunta_id": pregunta_id,
-#                    "respuesta": respuesta_text,
-#                    "similarity_score": 0.0,
-#                    "level_estimate": "Error",
-#                    "chunks_retrieved": [],
-#                    "gpt_evaluation": {"error_parse": "exception", "raw": str(e)}
-#                }
-#
-#            results.append({
-#                "userid": uid,
-#                "usuario": attempt.get("fullname", nombre_usuario),
-#                "attempt_id": attempt.get("id"),
-#                "intento": intento_num,
-#                "fecha": fecha,
-#                "pregunta_id": pregunta_id,
-#                "pregunta": pregunta_text,
-#                "respuesta": respuesta_text,
-#                "evaluation": eval_result
-#            })
-#
-#    # render
-#    # Agrupar por intento
-#    by_intent = {}
-#    for item in results:
-#        intento = item.get("intento", 1)
-#        if intento not in by_intent:
-#            by_intent[intento] = []
-#        by_intent[intento].append(item)
-#
-#    print("======== DEBUG RESULTS ========")
-#    print(pregunta_id)
-#    print("Total:", len(pregunta_id))
-#    print("===============================")
-#
-#    return render_template(
-#        "feedback.html",
-#        usuario=nombre_usuario,
-#        feedbackid=feedbackid,
-#        by_intent=by_intent
-#    )
-#
+def get_items(feedback_id):
+    url = f"{MOODLE_DOMAIN}/webservice/rest/server.php"
+    params = {
+        "wstoken": MOODLE_TOKEN,
+        "wsfunction": "mod_feedback_get_items",
+        "feedbackid": feedback_id,
+        "moodlewsrestformat": "json",
+    }
+    r = requests.get(url, params=params, timeout=30)
+    r.raise_for_status()
+    return r.json()
+
+def get_full_responses(feedback_id, attempt_id):
+    url = f"{MOODLE_DOMAIN}/webservice/rest/server.php"
+    params = {
+        "wstoken": MOODLE_TOKEN,
+        "wsfunction": "mod_feedback_get_responses",
+        "attemptid": attempt_id,
+        "feedbackid": feedback_id,
+        "moodlewsrestformat": "json",
+    }
+    r = requests.get(url, params=params, timeout=30)
+    r.raise_for_status()
+    return r.json()
+
 from db import buscar_evaluacion, guardar_evaluacion
 
 @app.route("/feedback/", methods=["GET"])
@@ -144,6 +83,14 @@ def feedback_view():
 
     data = get_analysis(feedbackid)
     attempts = data.get("attempts", [])
+    
+    # Obtener textos completos de preguntas
+    items_data = get_items(feedbackid)
+    preguntas_completas = {
+        str(item["id"]): item.get("name", "")
+        for item in items_data.get("items", [])
+    }
+
     user_attempts = [a for a in attempts if str(a.get("userid")) == str(id_user_moodle)]
 
     if not user_attempts:
@@ -154,6 +101,15 @@ def feedback_view():
     intentos_por_usuario = defaultdict(int)
 
     for attempt in attempts_sorted:
+        # === Respuestas completas ===
+        resp_data = get_full_responses(feedbackid, attempt.get("id"))
+        respuestas_completas = {}
+
+        for item in resp_data.get("items", []):
+            pid = str(item["item"]["id"])
+            if item.get("responses"):
+                respuestas_completas[pid] = item["responses"][0]
+                
         uid = attempt.get("userid")
         intentos_por_usuario[uid] += 1
         intento_num = intentos_por_usuario[uid]
@@ -163,8 +119,9 @@ def feedback_view():
 
         for resp in attempt.get("responses", []):
             pregunta_id = str(resp.get("id"))
-            pregunta_text = resp.get("name") or ""
-            respuesta_text = (resp.get("rawval") or "").strip()
+            pregunta_text = preguntas_completas.get(pregunta_id, resp.get("name") or "")
+            #respuesta_text = (resp.get("rawval") or "").strip()
+            respuesta_text = respuestas_completas.get(pregunta_id, (resp.get("rawval") or "").strip())
 
             existente = buscar_evaluacion(curid, feedbackid, id_user_moodle, pregunta_id)
 
